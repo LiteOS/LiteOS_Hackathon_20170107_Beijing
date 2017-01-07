@@ -1,8 +1,8 @@
 ![Huawei LiteOS Hackathon](http://developer.huawei.com/ict/sites/default/files/dc_image/900x440_001.png)  
-####活动官方地址：http://developer.huawei.com/ict/cn/events/site-iot-hackathon2016-liteos
+##活动官方地址：http://developer.huawei.com/ict/cn/events/site-iot-hackathon2016-liteos
 
-##什么是HUAWEI LiteOS黑客松？
-  * 简单来说就是是由huawei主办，使用huawei开源软件 LiteOS，创建关于智能物联网设备的一个编程活动。
+##什么是Huawei LiteOS黑客松？
+  * 简单来说就是由Huawei主办，使用Huawei LiteOS开源版本创建关于智能物联网设备的一个编程活动。
      
   * 对于有志于投身智能物联网市场的开发者、设计师、产品经理抑或创业团队来说，Huawei LiteOS小于10KB的体积、开源的特性无疑给他们提供了进入物联网市场的“钥匙”。只不过借助于Huawei LiteOS以及它所开放的API接口，究竟能不能不需要考虑通讯问题、网络问题、传感器问题、物理设备连接问题…而只把重心放在业务逻辑和应用开发上呢？人们更关心Huawei LiteOS能否帮他们加速智能物联网项目商用化的进程。
       
