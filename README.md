@@ -1,4 +1,4 @@
-![Huawei LiteOS Hackathon](http://developer.huawei.com/ict/sites/default/files/dc_image/900x440_001.png)
+![Huawei LiteOS Hackathon](http://developer.huawei.com/ict/sites/default/files/dc_image/900x440_001.png)  
 ###活动官方地址：http://developer.huawei.com/ict/cn/events/site-iot-hackathon2016-liteos
 
 ##什么是HUAWEI LiteOS黑客松？
