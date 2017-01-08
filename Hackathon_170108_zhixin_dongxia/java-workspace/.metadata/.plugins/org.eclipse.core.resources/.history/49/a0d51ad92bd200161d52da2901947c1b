@@ -1,0 +1,9 @@
+package org.levainservice.rest.oms;
+
+import org.levainservice.service.Response;
+
+public class UserClient {
+	public Response insert(User user){
+		
+	}
+}

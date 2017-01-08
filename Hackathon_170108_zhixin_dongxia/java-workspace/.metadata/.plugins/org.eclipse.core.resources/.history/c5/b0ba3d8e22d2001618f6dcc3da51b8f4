@@ -1,0 +1,49 @@
+package com.levainservice.service.oms;
+
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import org.apache.log4j.Logger;
+import org.levainservice.service.oms.dao.IUserDAO;
+import org.levainservice.service.oms.dao.impl.UserImpl;
+
+import com.levainservice.service.AbstractResource;
+import com.levainservice.service.util.ResponseUtil;
+
+@Path("userService")
+public class UserResource extends AbstractResource {
+	Logger log = Logger.getLogger(UserResource.class);
+
+	IUserDAO userDao = new UserImpl();
+
+	/**
+	 * 添加新的公司
+	 * 
+	 * @param json
+	 *            公司信息json字符串
+	 * @return
+	 */
+	@POST
+	@Path("/")
+	@Produces(MediaType.APPLICATION_JSON)
+	public String create(String json) {
+		log.trace("POST");
+		log.info("create:" + json);
+
+		CompanyInfo company = this.getGson().fromJson(json, CompanyInfo.class);
+		company.setInUse("1");
+
+		boolean result = service.insertCompanyInfo(company);
+		if (result) {
+			log.trace("Company is Inserted ...  ok!");
+
+			return ResponseUtil.getSuccessResponse();
+		} else {
+			log.trace("Company is Inserted ...  error!");
+
+			return ResponseUtil.getFailResponse();
+		}
+	}
+}

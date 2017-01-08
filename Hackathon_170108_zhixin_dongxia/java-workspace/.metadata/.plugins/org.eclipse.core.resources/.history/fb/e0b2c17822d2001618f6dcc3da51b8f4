@@ -1,0 +1,10 @@
+package com.levainservice.service.oms;
+
+import javax.ws.rs.Path;
+
+import com.levainservice.service.AbstractResource;
+
+@Path("userService")
+public class UserResource extends AbstractResource{
+	
+}
