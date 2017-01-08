@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@drawable/qa_bar"
+    android:orientation="horizontal" >
+    <LinearLayout
+        android:id="@+id/id_pindaojian"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1" >
+        <ImageButton
+            android:id="@+id/id_pindaojian_img"
+            android:layout_width="36dp"
+           android:layout_height="36dp"
+           android:scaleType="centerInside"
+           android:clickable="false"
+           android:layout_gravity="center"
+           android:src="@drawable/ic_ir_stb_key_navi_left_normal"
+           android:background="#00000000"
+            />
+        <TextView
+            android:text="频道-"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/id_pindaojia"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:text="@string/btn_color_picker" >
+        
+        <ImageButton
+            android:id="@+id/id_pindaojia_img"
+            android:layout_width="36dp"
+           android:layout_height="36dp"
+           android:scaleType="centerInside"
+           android:clickable="false"
+           android:layout_gravity="center"
+           android:src="@drawable/ic_ir_stb_key_navi_right_normal"
+           android:background="#00000000"
+            />
+        <TextView
+            android:text="频道+"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			
+        />
+    </LinearLayout>
+
+</LinearLayout>

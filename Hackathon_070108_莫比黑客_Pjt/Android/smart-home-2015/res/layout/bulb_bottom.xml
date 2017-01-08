@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@drawable/qa_bar"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/id_blub1"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1" >
+        
+        <ImageButton
+            android:id="@+id/id_bulb1_img"
+           android:layout_width="36dp"
+           android:layout_height="36dp"
+           android:scaleType="centerInside"
+           android:clickable="false"
+           android:layout_gravity="center"
+           android:src="@drawable/light_bulb_off"
+           android:background="#00000000"
+            />
+        <TextView
+            android:id="@+id/id_bulb1_txt"
+            android:text="打开灯环"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			
+        />
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:id="@+id/id_blub2"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1" >
+        
+        <ImageButton
+            android:id="@+id/id_bulb2_img"
+            android:layout_width="36dp"
+           android:layout_height="36dp"
+           android:scaleType="centerInside"
+           android:clickable="false"
+           android:layout_gravity="center"
+           android:src="@drawable/light_bulb_on"
+           android:background="#00000000"
+            />
+        <TextView
+            android:text="关闭光感"
+            android:id="@+id/id_bulb2_txt"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/id_blub3"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1" >
+        
+        <ImageButton
+            android:id="@+id/id_bulb3_img"
+            android:layout_width="36dp"
+           android:layout_height="36dp"
+           android:scaleType="centerInside"
+           android:clickable="false"
+           android:layout_gravity="center"
+           android:src="@drawable/light_bulb_off"
+           android:background="#00000000"
+            />
+        <TextView
+            android:text="灯3"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/id_blub4"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1" >
+        
+        <ImageButton
+            android:id="@+id/id_bulb4_img"
+            android:layout_width="36dp"
+           	android:layout_height="36dp"
+           android:scaleType="centerInside"
+           android:clickable="false"
+           android:layout_gravity="center"
+           android:src="@drawable/light_bulb_off"
+           android:background="#00000000"
+            />
+        <TextView
+            android:text="灯4"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			
+        />
+    </LinearLayout>
+
+</LinearLayout>
