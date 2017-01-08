@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/qa_bar"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="horizontal" >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+     android:layout_weight="1"
+    >
+
+    <com.piaoxue.weixins.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:text="智能家居控制系统"
+        android:textColor="#00ffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+	</LinearLayout>
+	<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+     android:layout_weight="1"
+  	  >
+	<ImageButton
+	    android:id="@+id/id_xinhao_img"
+	    android:layout_width="36dp"
+	    android:layout_height="36dp"
+	    android:layout_weight="1"
+	    android:background="#00000000"
+	    android:clickable="false"
+	    android:scaleType="centerInside"
+	    android:src="@drawable/wind_amount_colourful_five" />
+	</LinearLayout>
+    <!--  android:layout_marginLeft="80dp" -->
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/top" />
+     <include layout="@layout/ip_port_bottom" />
+    <include layout="@layout/bulb_bottom" />
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+        >
+	    <LinearLayout
+	    android:id="@+id/Linear_mylayout"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	        >
+	        </LinearLayout>
+	    <LinearLayout  
+	    android:layout_width="100dp"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	        >
+	        <TextView
+	        android:id="@+id/tv_text_R"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="20dp"
+	        android:layout_gravity="center"
+	        android:padding="20dp"
+	        android:textSize="20dp"
+	        android:textColor="@android:color/black"
+	        android:text="R" />
+	       <TextView
+	        android:id="@+id/tv_text_G"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="20dp"
+	        android:layout_gravity="center"
+	        android:padding="20dp"
+	        android:textSize="20dp"
+	        android:textColor="@android:color/black"
+	        android:text="G" />
+	        <TextView
+	        android:id="@+id/tv_text_B"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="20dp"
+	        android:layout_gravity="center"
+	        android:padding="20dp"
+	        android:textSize="20dp"
+	        android:textColor="@android:color/black"
+	        android:text="B" />
+	     </LinearLayout>
+ 	</LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+	<include layout="@layout/bulb_fengshan_bottom" />
+    <!-- <include layout="@layout/bottom" />-->
+</LinearLayout>

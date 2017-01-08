@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@drawable/qa_bar"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/id_tab_light"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1" >
+        
+        <ImageButton
+            android:id="@+id/id_tab_light_img"
+           android:clickable="false"
+           android:layout_gravity="center"
+           android:layout_width="36dp"
+           	android:layout_height="36dp"
+           	android:scaleType="centerInside"
+           android:src="@drawable/light_bulb_off"
+           android:background="#00000000"
+            />
+        <TextView
+            android:text="灯光"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			
+        />
+    </LinearLayout>
+    
+    
+     <LinearLayout
+        android:id="@+id/id_tab_place"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1" >
+        
+        <ImageButton
+            android:id="@+id/id_tab_place_img"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:clickable="false"
+           android:layout_gravity="center"
+           android:src="@drawable/composer_place"
+           android:background="#00000000"
+            />
+        <TextView
+            android:text="遥控"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			
+        />
+    </LinearLayout>
+     <LinearLayout
+         android:id="@+id/id_tab_frd"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1" >
+        
+        <ImageButton
+            android:id="@+id/id_tab_frd_img"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:clickable="false"
+           android:layout_gravity="center"
+           android:src="@drawable/composer_with"
+           android:background="#00000000"
+            />
+        <TextView
+            android:text="传感器"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			
+        />
+    </LinearLayout>
+     <LinearLayout
+         android:id="@+id/id_tab_msg"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1" >
+        
+        <ImageButton
+            android:id="@+id/id_tab_msg_img"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:clickable="false"
+           android:layout_gravity="center"
+           android:src="@drawable/composer_thought"
+           android:background="#00000000"
+            />
+        <TextView
+            android:text="连接"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			
+        />
+    </LinearLayout>
+
+</LinearLayout>
