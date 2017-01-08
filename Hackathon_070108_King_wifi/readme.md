@@ -1,0 +1,2 @@
+#实现wifi采集传感器信息功能MQTT
+#umqtt实现是GPL协议
