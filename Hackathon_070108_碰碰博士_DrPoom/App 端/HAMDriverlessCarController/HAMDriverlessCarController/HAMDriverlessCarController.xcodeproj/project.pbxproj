@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		352A62301E211B04001D6C86 /* HAMClientVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 352A622F1E211B04001D6C86 /* HAMClientVC.m */; };
+		352A62321E211BE2001D6C86 /* back_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 352A62311E211BE2001D6C86 /* back_arrow@2x.png */; };
+		352A62341E2122DC001D6C86 /* car@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 352A62331E2122DC001D6C86 /* car@2x.png */; };
+		352A62381E213EA6001D6C86 /* HAMBorderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 352A62371E213EA6001D6C86 /* HAMBorderButton.m */; };
+		352A62421E213FDF001D6C86 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 352A623B1E213FDF001D6C86 /* LICENSE.txt */; };
+		352A62431E213FDF001D6C86 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 352A623E1E213FDF001D6C86 /* SVIndefiniteAnimatedView.m */; };
+		352A62441E213FDF001D6C86 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 352A623F1E213FDF001D6C86 /* SVProgressHUD.bundle */; };
+		352A62451E213FDF001D6C86 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 352A62411E213FDF001D6C86 /* SVProgressHUD.m */; };
+		352A62471E2140EE001D6C86 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 352A62461E2140EE001D6C86 /* check@2x.png */; };
+		352A624A1E214ABC001D6C86 /* HAMDeliverySucceedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 352A62491E214ABC001D6C86 /* HAMDeliverySucceedVC.m */; };
+		352A624D1E214AF7001D6C86 /* HAMInputCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 352A624C1E214AF7001D6C86 /* HAMInputCodeVC.m */; };
+		352A62531E21CDD5001D6C86 /* ConfigData.m in Sources */ = {isa = PBXBuildFile; fileRef = 352A62501E21CDD5001D6C86 /* ConfigData.m */; };
+		352A62541E21CDD5001D6C86 /* TransData.m in Sources */ = {isa = PBXBuildFile; fileRef = 352A62521E21CDD5001D6C86 /* TransData.m */; };
+		352A62581E21CDE5001D6C86 /* ControlSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 352A62571E21CDE5001D6C86 /* ControlSocketManager.m */; };
+		35688A531E2091C700D38C8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35688A521E2091C700D38C8D /* main.m */; };
+		35688A561E2091C700D38C8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35688A551E2091C700D38C8D /* AppDelegate.m */; };
+		35688A591E2091C700D38C8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35688A581E2091C700D38C8D /* ViewController.m */; };
+		35688A5C1E2091C700D38C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35688A5A1E2091C700D38C8D /* Main.storyboard */; };
+		35688A5E1E2091C700D38C8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35688A5D1E2091C700D38C8D /* Assets.xcassets */; };
+		35688A611E2091C700D38C8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35688A5F1E2091C700D38C8D /* LaunchScreen.storyboard */; };
+		35688A6A1E20B3FC00D38C8D /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35688A691E20B3FC00D38C8D /* logo@2x.png */; };
+		35688A6E1E20B62700D38C8D /* UIColor+WNYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 35688A6D1E20B62700D38C8D /* UIColor+WNYUtils.m */; };
+		35688A721E20C24400D38C8D /* HAMTourVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 35688A711E20C24400D38C8D /* HAMTourVC.m */; };
+		35688ABD1E20CC8A00D38C8D /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 35688ABC1E20CC8A00D38C8D /* libicucore.tbd */; };
+		35688ADB1E20D09100D38C8D /* Documentation.html in Resources */ = {isa = PBXBuildFile; fileRef = 35688AC01E20D09100D38C8D /* Documentation.html */; };
+		35688ADC1E20D09100D38C8D /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 35688AC21E20D09100D38C8D /* GCDAsyncSocket.m */; };
+		35688ADD1E20D09100D38C8D /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 35688AC41E20D09100D38C8D /* GCDAsyncUdpSocket.m */; };
+		35688ADE1E20D09100D38C8D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35688AC51E20D09100D38C8D /* Info.plist */; };
+		35688ADF1E20D09100D38C8D /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 35688AC91E20D09100D38C8D /* DDAbstractDatabaseLogger.m */; };
+		35688AE01E20D09100D38C8D /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 35688ACB1E20D09100D38C8D /* DDASLLogger.m */; };
+		35688AE11E20D09100D38C8D /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 35688ACD1E20D09100D38C8D /* DDFileLogger.m */; };
+		35688AE21E20D09100D38C8D /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 35688AD01E20D09100D38C8D /* DDLog.m */; };
+		35688AE31E20D09100D38C8D /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 35688AD21E20D09100D38C8D /* DDTTYLogger.m */; };
+		35688AE41E20D09100D38C8D /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 35688AD51E20D09100D38C8D /* DDContextFilterLogFormatter.m */; };
+		35688AE51E20D09100D38C8D /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 35688AD71E20D09100D38C8D /* DDDispatchQueueLogFormatter.m */; };
+		35688AE61E20D09100D38C8D /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 35688AD91E20D09100D38C8D /* DDMultiFormatter.m */; };
+		35688AE71E20D09100D38C8D /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 35688ADA1E20D09100D38C8D /* README.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		352A622E1E211B04001D6C86 /* HAMClientVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAMClientVC.h; sourceTree = "<group>"; };
+		352A622F1E211B04001D6C86 /* HAMClientVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAMClientVC.m; sourceTree = "<group>"; };
+		352A62311E211BE2001D6C86 /* back_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back_arrow@2x.png"; path = "../../../../../Downloads/back_arrow@2x.png"; sourceTree = "<group>"; };
+		352A62331E2122DC001D6C86 /* car@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "car@2x.png"; path = "../../../../../Downloads/car@2x.png"; sourceTree = "<group>"; };
+		352A62361E213EA6001D6C86 /* HAMBorderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAMBorderButton.h; sourceTree = "<group>"; };
+		352A62371E213EA6001D6C86 /* HAMBorderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAMBorderButton.m; sourceTree = "<group>"; };
+		352A623B1E213FDF001D6C86 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		352A623D1E213FDF001D6C86 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		352A623E1E213FDF001D6C86 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		352A623F1E213FDF001D6C86 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		352A62401E213FDF001D6C86 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		352A62411E213FDF001D6C86 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		352A62461E2140EE001D6C86 /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
+		352A62481E214ABC001D6C86 /* HAMDeliverySucceedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAMDeliverySucceedVC.h; sourceTree = "<group>"; };
+		352A62491E214ABC001D6C86 /* HAMDeliverySucceedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAMDeliverySucceedVC.m; sourceTree = "<group>"; };
+		352A624B1E214AF7001D6C86 /* HAMInputCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAMInputCodeVC.h; sourceTree = "<group>"; };
+		352A624C1E214AF7001D6C86 /* HAMInputCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAMInputCodeVC.m; sourceTree = "<group>"; };
+		352A624F1E21CDD5001D6C86 /* ConfigData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigData.h; sourceTree = "<group>"; };
+		352A62501E21CDD5001D6C86 /* ConfigData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigData.m; sourceTree = "<group>"; };
+		352A62511E21CDD5001D6C86 /* TransData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransData.h; sourceTree = "<group>"; };
+		352A62521E21CDD5001D6C86 /* TransData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransData.m; sourceTree = "<group>"; };
+		352A62561E21CDE5001D6C86 /* ControlSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlSocketManager.h; sourceTree = "<group>"; };
+		352A62571E21CDE5001D6C86 /* ControlSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlSocketManager.m; sourceTree = "<group>"; };
+		35688A4E1E2091C700D38C8D /* HAMDriverlessCarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HAMDriverlessCarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35688A521E2091C700D38C8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35688A541E2091C700D38C8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35688A551E2091C700D38C8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35688A571E2091C700D38C8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		35688A581E2091C700D38C8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		35688A5B1E2091C700D38C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35688A5D1E2091C700D38C8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35688A601E2091C700D38C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35688A621E2091C700D38C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35688A691E20B3FC00D38C8D /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		35688A6C1E20B62700D38C8D /* UIColor+WNYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WNYUtils.h"; sourceTree = "<group>"; };
+		35688A6D1E20B62700D38C8D /* UIColor+WNYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WNYUtils.m"; sourceTree = "<group>"; };
+		35688A701E20C24400D38C8D /* HAMTourVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAMTourVC.h; sourceTree = "<group>"; };
+		35688A711E20C24400D38C8D /* HAMTourVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAMTourVC.m; sourceTree = "<group>"; };
+		35688ABC1E20CC8A00D38C8D /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		35688ABE1E20D09100D38C8D /* CocoaAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CocoaAsyncSocket.h; path = "../../../../../Downloads/CocoaAsyncSocket-master/Source/CocoaAsyncSocket.h"; sourceTree = "<group>"; };
+		35688AC01E20D09100D38C8D /* Documentation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Documentation.html; sourceTree = "<group>"; };
+		35688AC11E20D09100D38C8D /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		35688AC21E20D09100D38C8D /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		35688AC31E20D09100D38C8D /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		35688AC41E20D09100D38C8D /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		35688AC51E20D09100D38C8D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../../../Downloads/CocoaAsyncSocket-master/Source/Info.plist"; sourceTree = "<group>"; };
+		35688AC81E20D09100D38C8D /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		35688AC91E20D09100D38C8D /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		35688ACA1E20D09100D38C8D /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		35688ACB1E20D09100D38C8D /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		35688ACC1E20D09100D38C8D /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		35688ACD1E20D09100D38C8D /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		35688ACE1E20D09100D38C8D /* DDLog+LOGV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDLog+LOGV.h"; sourceTree = "<group>"; };
+		35688ACF1E20D09100D38C8D /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		35688AD01E20D09100D38C8D /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		35688AD11E20D09100D38C8D /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		35688AD21E20D09100D38C8D /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		35688AD41E20D09100D38C8D /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		35688AD51E20D09100D38C8D /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		35688AD61E20D09100D38C8D /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		35688AD71E20D09100D38C8D /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		35688AD81E20D09100D38C8D /* DDMultiFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMultiFormatter.h; sourceTree = "<group>"; };
+		35688AD91E20D09100D38C8D /* DDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMultiFormatter.m; sourceTree = "<group>"; };
+		35688ADA1E20D09100D38C8D /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35688A4B1E2091C700D38C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35688ABD1E20CC8A00D38C8D /* libicucore.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		352A622D1E211AD4001D6C86 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				352A622E1E211B04001D6C86 /* HAMClientVC.h */,
+				352A622F1E211B04001D6C86 /* HAMClientVC.m */,
+				352A62481E214ABC001D6C86 /* HAMDeliverySucceedVC.h */,
+				352A62491E214ABC001D6C86 /* HAMDeliverySucceedVC.m */,
+				352A624B1E214AF7001D6C86 /* HAMInputCodeVC.h */,
+				352A624C1E214AF7001D6C86 /* HAMInputCodeVC.m */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		352A62351E213E8D001D6C86 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				352A62361E213EA6001D6C86 /* HAMBorderButton.h */,
+				352A62371E213EA6001D6C86 /* HAMBorderButton.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		352A623A1E213FDF001D6C86 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				352A623B1E213FDF001D6C86 /* LICENSE.txt */,
+				352A623C1E213FDF001D6C86 /* SVProgressHUD */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		352A623C1E213FDF001D6C86 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				352A623D1E213FDF001D6C86 /* SVIndefiniteAnimatedView.h */,
+				352A623E1E213FDF001D6C86 /* SVIndefiniteAnimatedView.m */,
+				352A623F1E213FDF001D6C86 /* SVProgressHUD.bundle */,
+				352A62401E213FDF001D6C86 /* SVProgressHUD.h */,
+				352A62411E213FDF001D6C86 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		352A624E1E21CDD5001D6C86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				352A624F1E21CDD5001D6C86 /* ConfigData.h */,
+				352A62501E21CDD5001D6C86 /* ConfigData.m */,
+				352A62511E21CDD5001D6C86 /* TransData.h */,
+				352A62521E21CDD5001D6C86 /* TransData.m */,
+			);
+			name = Model;
+			path = ../Model;
+			sourceTree = "<group>";
+		};
+		352A62551E21CDE5001D6C86 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				352A624E1E21CDD5001D6C86 /* Model */,
+				352A62561E21CDE5001D6C86 /* ControlSocketManager.h */,
+				352A62571E21CDE5001D6C86 /* ControlSocketManager.m */,
+			);
+			name = Network;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		35688A451E2091C700D38C8D = {
+			isa = PBXGroup;
+			children = (
+				35688A501E2091C700D38C8D /* HAMDriverlessCarController */,
+				35688A4F1E2091C700D38C8D /* Products */,
+				35688ABB1E20CC8A00D38C8D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		35688A4F1E2091C700D38C8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35688A4E1E2091C700D38C8D /* HAMDriverlessCarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35688A501E2091C700D38C8D /* HAMDriverlessCarController */ = {
+			isa = PBXGroup;
+			children = (
+				352A62551E21CDE5001D6C86 /* Network */,
+				352A62351E213E8D001D6C86 /* Common */,
+				35688A731E20C91B00D38C8D /* Libs */,
+				35688A6B1E20B5BB00D38C8D /* Utils */,
+				35688A681E20B3C600D38C8D /* Images */,
+				35688A6F1E20BB6600D38C8D /* Delivery */,
+				352A622D1E211AD4001D6C86 /* Client */,
+				35688A541E2091C700D38C8D /* AppDelegate.h */,
+				35688A551E2091C700D38C8D /* AppDelegate.m */,
+				35688A571E2091C700D38C8D /* ViewController.h */,
+				35688A581E2091C700D38C8D /* ViewController.m */,
+				35688A5A1E2091C700D38C8D /* Main.storyboard */,
+				35688A5D1E2091C700D38C8D /* Assets.xcassets */,
+				35688A5F1E2091C700D38C8D /* LaunchScreen.storyboard */,
+				35688A621E2091C700D38C8D /* Info.plist */,
+				35688A511E2091C700D38C8D /* Supporting Files */,
+			);
+			path = HAMDriverlessCarController;
+			sourceTree = "<group>";
+		};
+		35688A511E2091C700D38C8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35688A521E2091C700D38C8D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35688A681E20B3C600D38C8D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				352A62461E2140EE001D6C86 /* check@2x.png */,
+				352A62331E2122DC001D6C86 /* car@2x.png */,
+				352A62311E211BE2001D6C86 /* back_arrow@2x.png */,
+				35688A691E20B3FC00D38C8D /* logo@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		35688A6B1E20B5BB00D38C8D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				35688A6C1E20B62700D38C8D /* UIColor+WNYUtils.h */,
+				35688A6D1E20B62700D38C8D /* UIColor+WNYUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		35688A6F1E20BB6600D38C8D /* Delivery */ = {
+			isa = PBXGroup;
+			children = (
+				35688A701E20C24400D38C8D /* HAMTourVC.h */,
+				35688A711E20C24400D38C8D /* HAMTourVC.m */,
+			);
+			name = Delivery;
+			path = Tour;
+			sourceTree = "<group>";
+		};
+		35688A731E20C91B00D38C8D /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				352A623A1E213FDF001D6C86 /* SVProgressHUD */,
+				35688ABE1E20D09100D38C8D /* CocoaAsyncSocket.h */,
+				35688ABF1E20D09100D38C8D /* GCD */,
+				35688AC51E20D09100D38C8D /* Info.plist */,
+				35688AC61E20D09100D38C8D /* Vendor */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		35688ABB1E20CC8A00D38C8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35688ABC1E20CC8A00D38C8D /* libicucore.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35688ABF1E20D09100D38C8D /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				35688AC01E20D09100D38C8D /* Documentation.html */,
+				35688AC11E20D09100D38C8D /* GCDAsyncSocket.h */,
+				35688AC21E20D09100D38C8D /* GCDAsyncSocket.m */,
+				35688AC31E20D09100D38C8D /* GCDAsyncUdpSocket.h */,
+				35688AC41E20D09100D38C8D /* GCDAsyncUdpSocket.m */,
+			);
+			name = GCD;
+			path = "../../../../../Downloads/CocoaAsyncSocket-master/Source/GCD";
+			sourceTree = "<group>";
+		};
+		35688AC61E20D09100D38C8D /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				35688AC71E20D09100D38C8D /* CocoaLumberjack */,
+			);
+			name = Vendor;
+			path = "../../../../../Downloads/CocoaAsyncSocket-master/Source/Vendor";
+			sourceTree = "<group>";
+		};
+		35688AC71E20D09100D38C8D /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				35688AC81E20D09100D38C8D /* DDAbstractDatabaseLogger.h */,
+				35688AC91E20D09100D38C8D /* DDAbstractDatabaseLogger.m */,
+				35688ACA1E20D09100D38C8D /* DDASLLogger.h */,
+				35688ACB1E20D09100D38C8D /* DDASLLogger.m */,
+				35688ACC1E20D09100D38C8D /* DDFileLogger.h */,
+				35688ACD1E20D09100D38C8D /* DDFileLogger.m */,
+				35688ACE1E20D09100D38C8D /* DDLog+LOGV.h */,
+				35688ACF1E20D09100D38C8D /* DDLog.h */,
+				35688AD01E20D09100D38C8D /* DDLog.m */,
+				35688AD11E20D09100D38C8D /* DDTTYLogger.h */,
+				35688AD21E20D09100D38C8D /* DDTTYLogger.m */,
+				35688AD31E20D09100D38C8D /* Extensions */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		35688AD31E20D09100D38C8D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				35688AD41E20D09100D38C8D /* DDContextFilterLogFormatter.h */,
+				35688AD51E20D09100D38C8D /* DDContextFilterLogFormatter.m */,
+				35688AD61E20D09100D38C8D /* DDDispatchQueueLogFormatter.h */,
+				35688AD71E20D09100D38C8D /* DDDispatchQueueLogFormatter.m */,
+				35688AD81E20D09100D38C8D /* DDMultiFormatter.h */,
+				35688AD91E20D09100D38C8D /* DDMultiFormatter.m */,
+				35688ADA1E20D09100D38C8D /* README.txt */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35688A4D1E2091C700D38C8D /* HAMDriverlessCarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35688A651E2091C700D38C8D /* Build configuration list for PBXNativeTarget "HAMDriverlessCarController" */;
+			buildPhases = (
+				35688A4A1E2091C700D38C8D /* Sources */,
+				35688A4B1E2091C700D38C8D /* Frameworks */,
+				35688A4C1E2091C700D38C8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HAMDriverlessCarController;
+			productName = HAMDriverlessCarController;
+			productReference = 35688A4E1E2091C700D38C8D /* HAMDriverlessCarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35688A461E2091C700D38C8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Find the Lamp Studio";
+				TargetAttributes = {
+					35688A4D1E2091C700D38C8D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4BARD4YH3W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 35688A491E2091C700D38C8D /* Build configuration list for PBXProject "HAMDriverlessCarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35688A451E2091C700D38C8D;
+			productRefGroup = 35688A4F1E2091C700D38C8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35688A4D1E2091C700D38C8D /* HAMDriverlessCarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35688A4C1E2091C700D38C8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35688A611E2091C700D38C8D /* LaunchScreen.storyboard in Resources */,
+				35688A5E1E2091C700D38C8D /* Assets.xcassets in Resources */,
+				35688ADE1E20D09100D38C8D /* Info.plist in Resources */,
+				35688A5C1E2091C700D38C8D /* Main.storyboard in Resources */,
+				352A62321E211BE2001D6C86 /* back_arrow@2x.png in Resources */,
+				35688ADB1E20D09100D38C8D /* Documentation.html in Resources */,
+				352A62341E2122DC001D6C86 /* car@2x.png in Resources */,
+				35688AE71E20D09100D38C8D /* README.txt in Resources */,
+				352A62421E213FDF001D6C86 /* LICENSE.txt in Resources */,
+				35688A6A1E20B3FC00D38C8D /* logo@2x.png in Resources */,
+				352A62441E213FDF001D6C86 /* SVProgressHUD.bundle in Resources */,
+				352A62471E2140EE001D6C86 /* check@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35688A4A1E2091C700D38C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35688AE61E20D09100D38C8D /* DDMultiFormatter.m in Sources */,
+				352A62531E21CDD5001D6C86 /* ConfigData.m in Sources */,
+				35688ADC1E20D09100D38C8D /* GCDAsyncSocket.m in Sources */,
+				35688A721E20C24400D38C8D /* HAMTourVC.m in Sources */,
+				35688A6E1E20B62700D38C8D /* UIColor+WNYUtils.m in Sources */,
+				35688A591E2091C700D38C8D /* ViewController.m in Sources */,
+				35688ADD1E20D09100D38C8D /* GCDAsyncUdpSocket.m in Sources */,
+				352A62301E211B04001D6C86 /* HAMClientVC.m in Sources */,
+				352A62451E213FDF001D6C86 /* SVProgressHUD.m in Sources */,
+				35688AE21E20D09100D38C8D /* DDLog.m in Sources */,
+				352A62381E213EA6001D6C86 /* HAMBorderButton.m in Sources */,
+				352A62541E21CDD5001D6C86 /* TransData.m in Sources */,
+				35688AE41E20D09100D38C8D /* DDContextFilterLogFormatter.m in Sources */,
+				35688AE01E20D09100D38C8D /* DDASLLogger.m in Sources */,
+				352A62431E213FDF001D6C86 /* SVIndefiniteAnimatedView.m in Sources */,
+				35688A561E2091C700D38C8D /* AppDelegate.m in Sources */,
+				35688AE51E20D09100D38C8D /* DDDispatchQueueLogFormatter.m in Sources */,
+				35688ADF1E20D09100D38C8D /* DDAbstractDatabaseLogger.m in Sources */,
+				352A624A1E214ABC001D6C86 /* HAMDeliverySucceedVC.m in Sources */,
+				352A624D1E214AF7001D6C86 /* HAMInputCodeVC.m in Sources */,
+				35688AE31E20D09100D38C8D /* DDTTYLogger.m in Sources */,
+				35688A531E2091C700D38C8D /* main.m in Sources */,
+				352A62581E21CDE5001D6C86 /* ControlSocketManager.m in Sources */,
+				35688AE11E20D09100D38C8D /* DDFileLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35688A5A1E2091C700D38C8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35688A5B1E2091C700D38C8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35688A5F1E2091C700D38C8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35688A601E2091C700D38C8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35688A631E2091C700D38C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35688A641E2091C700D38C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35688A661E2091C700D38C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4BARD4YH3W;
+				INFOPLIST_FILE = HAMDriverlessCarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.findthelamp.HAMDriverlessCarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		35688A671E2091C700D38C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4BARD4YH3W;
+				INFOPLIST_FILE = HAMDriverlessCarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.findthelamp.HAMDriverlessCarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35688A491E2091C700D38C8D /* Build configuration list for PBXProject "HAMDriverlessCarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35688A631E2091C700D38C8D /* Debug */,
+				35688A641E2091C700D38C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35688A651E2091C700D38C8D /* Build configuration list for PBXNativeTarget "HAMDriverlessCarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35688A661E2091C700D38C8D /* Debug */,
+				35688A671E2091C700D38C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35688A461E2091C700D38C8D /* Project object */;
+}
