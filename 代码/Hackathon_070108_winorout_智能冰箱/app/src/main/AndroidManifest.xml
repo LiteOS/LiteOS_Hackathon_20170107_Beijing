@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.winorout.cashbook">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name=".common.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/refrigerator"
+        android:label="天天记账"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".accounting.AccountingActivity"/>
+        <activity
+            android:name=".qmyan.login.LoginActivity"
+            android:label="@string/title_activity_login">
+        </activity>
+        <activity
+            android:name=".qmyan.register.RegisterActivity"
+            android:label="@string/title_activity_register">
+        </activity>
+        <activity
+            android:name=".qmyan.changepwd.ChangePwdActivity"
+            android:label="@string/title_activity_change_password">
+        </activity>
+        <activity android:name=".xdwan.Target"/>
+        <activity
+            android:name=".qmyan.setting.SettingActivity"
+            android:label="@string/title_activity_setting">
+        </activity>
+        <activity
+            android:name=".qmyan.personcenter.PersonCenter"
+            android:label="@string/title_activity_person_center">
+        </activity>
+        <activity android:name=".qmyan.setting.HelpActivity"></activity>
+        <activity android:name=".qmyan.setting.AboutActivity"></activity>
+        <activity android:name=".xdwan.Extendedfunction"></activity>
+        <activity android:name=".xdwan.MoreinFormationKnows"></activity>
+        <activity android:name=".Introduce"></activity>
+
+    </application>
+
+</manifest>
