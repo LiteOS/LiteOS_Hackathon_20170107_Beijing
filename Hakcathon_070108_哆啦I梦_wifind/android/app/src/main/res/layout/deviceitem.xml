@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="25px"
+        android:layout_height="25px"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:id="@+id/graydot"
+        android:layout_marginTop="25dp"
+        android:src="@mipmap/graydot3x"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="31dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_deviceType"
+        android:text="Zengzhaoyang的Mate"
+        android:textColor="@color/colorBlack"
+        android:layout_alignBottom="@+id/graydot"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_deviceMac"
+        android:text="6C:test:test:test:test"
+        android:layout_below="@+id/graydot"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10px"/>
+
+
+</RelativeLayout>
