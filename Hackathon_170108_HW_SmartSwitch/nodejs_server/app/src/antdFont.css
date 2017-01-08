@@ -1,0 +1,14 @@
+.tbyfzxFont {
+    font: 30px Tahoma,Helvetica,Arial,'\5B8B\4F53',sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 20px;
+    margin-right: 20px;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+}
+
+#components-form-demo-register .icp-selector {
+    width: 60px;
+}

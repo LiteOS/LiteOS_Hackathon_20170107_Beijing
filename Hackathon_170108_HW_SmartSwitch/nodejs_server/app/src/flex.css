@@ -1,0 +1,112 @@
+.header {
+    width: 100%;
+    position: relative;
+    line-height: 46px;
+    height: 46px;
+    float: left;
+}
+
+.header:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    clear: both;
+    zoom: 0;
+}
+
+.logo {
+    z-index: 1051;
+    position: absolute;
+    width: 300px;
+    line-height: 46px;
+    height: 46px;
+    box-sizing: border-box;
+}
+.example-enter {
+    opacity: 0.01;
+    transition: opacity .5s ease-in;
+}
+
+.example-enter.example-enter-active {
+    opacity: 1;
+}
+
+.example-leave {
+    opacity: 1;
+    transition: opacity .5s ease-in;
+}
+
+.example-leave.example-leave-active {
+    opacity: 0;
+}
+
+.main-content {
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    float: left;
+    min-height: 400px;
+}
+
+.menuBar {
+    line-height: 46px;
+    height: 46px;
+    padding-left: 300px;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.memberArea {
+    padding-top: 60px;
+    width: 100%;
+    position: relative;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.steps-content {
+    border: 1px dashed #e9e9e9;
+    border-radius: 6px;
+    background-color: #fafafa;
+    min-height: 200px;
+    text-align: center;
+    padding-top: 80px;
+    margin-top: 16px;
+}
+
+.centerBlock {
+    width: 100%;
+    min-height: 100px;
+    background: black;
+    color: white;
+    padding: 0 5% 0 5%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.foot-nav {
+    padding-top: 30px;
+    min-width: 500px;
+    line-height: 16px;
+
+}
+
+.foot-nav ul {
+    list-style: none;
+}
+
+.foot-nav li {
+    display: inline;
+    padding-left: 20px;
+}
+
+.f-l {
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
