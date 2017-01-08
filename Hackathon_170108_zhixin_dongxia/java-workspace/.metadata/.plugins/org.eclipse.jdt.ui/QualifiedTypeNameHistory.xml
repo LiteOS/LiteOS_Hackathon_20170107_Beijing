@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+<fullyQualifiedTypeName name="org.hibernate.FetchMode"/>
+<fullyQualifiedTypeName name="org.hibernate.annotations.FetchMode"/>
+<fullyQualifiedTypeName name="org.levainservice.service.db.util.EntityManagerUtil"/>
+<fullyQualifiedTypeName name="org.levainservice.service.db.model.User"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="org.levainservice.service.db.dao.IDeviceDAO"/>
+<fullyQualifiedTypeName name="org.apache.log4j.LogManager"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+<fullyQualifiedTypeName name="org.levainservice.service.oms.model.User"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
+<fullyQualifiedTypeName name="org.levainservice.util.IdRandom"/>
+<fullyQualifiedTypeName name="org.levainservice.rest.RESTClient"/>
+<fullyQualifiedTypeName name="org.levainservice.service.Response"/>
+<fullyQualifiedTypeName name="org.levainservice.rest.Response"/>
+</qualifiedTypeNameHistroy>

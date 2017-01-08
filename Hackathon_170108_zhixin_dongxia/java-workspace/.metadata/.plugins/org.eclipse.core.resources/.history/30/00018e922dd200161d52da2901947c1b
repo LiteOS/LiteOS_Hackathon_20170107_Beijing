@@ -1,0 +1,5 @@
+package org.levainservice.util;
+
+public class IdRandom {
+
+}

@@ -1,0 +1,19 @@
+package org.levainservice.rest.oms;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class DeviceClientTest {
+
+	@Test
+	public void testInsert() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testListDevices() {
+		fail("Not yet implemented");
+	}
+
+}

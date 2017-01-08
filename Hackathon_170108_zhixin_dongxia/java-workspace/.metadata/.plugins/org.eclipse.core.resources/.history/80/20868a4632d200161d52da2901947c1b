@@ -1,0 +1,111 @@
+package org.levainservice.rest;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.ProtocolException;
+import java.net.URL;
+
+import com.google.gson.Gson;
+
+public class RESTClient {
+	public static final String SUBMIT_METHOD_POST = "post";
+	public static final String SUBMIT_METHOD_GET = "get";
+	public static final String SUBMIT_METHOD_PUT = "put";
+	public static final String SUBMIT_METHOD_DELETE = "delete";
+
+	public Response request(String servicePort, String method, String json) {
+		Response result = null;
+		if (method.toLowerCase().equals(SUBMIT_METHOD_POST))
+			result = post(servicePort, json);
+		else if (method.toLowerCase().equals(SUBMIT_METHOD_GET))
+			result = get(servicePort);
+		return result;
+	}
+
+	private Response post(String servicePort, String json) {
+		URL url;
+		try {
+			url = new URL(servicePort);
+			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+			conn.setDoOutput(true);
+			conn.setRequestMethod("POST");
+			conn.setRequestProperty("Content-Type", "application/json");
+
+			String input = json;
+
+			OutputStream os = conn.getOutputStream();
+			os.write(input.getBytes());
+			os.flush();
+
+			BufferedReader br = new BufferedReader(new InputStreamReader(
+					(conn.getInputStream())));
+
+			String line;
+			StringBuffer buffer = new StringBuffer("");
+			while ((line = br.readLine()) != null) {
+				buffer.append(line);
+			}
+
+			conn.disconnect();
+
+			Response result = new Gson().fromJson(buffer.toString(),
+					Response.class);
+
+			return result;
+		} catch (MalformedURLException e) {
+			return ResponseUtil.createFailResponse(e.getLocalizedMessage());
+		} catch (IOException e) {
+			return ResponseUtil.createFailResponse(e.getLocalizedMessage());
+		}
+
+	}
+
+	private Response get(String servicePort) {
+		URL url;
+		HttpURLConnection conn;
+
+		try {
+			url = new URL(servicePort);
+			conn = (HttpURLConnection) url.openConnection();
+			
+			conn.setRequestMethod("GET");
+			conn.setRequestProperty("Accept", "application/json");
+
+			BufferedReader br = new BufferedReader(new InputStreamReader(
+					(conn.getInputStream())));
+
+			String line;
+			StringBuffer buffer = new StringBuffer("");
+			while ((line = br.readLine()) != null) {
+				buffer.append(line);
+			}
+
+			conn.disconnect();
+
+			Response result = new Gson().fromJson(buffer.toString(),
+					Response.class);
+			return result;
+
+		} catch (MalformedURLException e) {
+			return ResponseUtil.createFailResponse(e.getLocalizedMessage());
+		} catch (ProtocolException e) {
+			return ResponseUtil.createFailResponse(e.getLocalizedMessage());
+		} catch (IOException e) {
+			return ResponseUtil.createFailResponse(e.getLocalizedMessage());
+		}
+
+	}
+
+	public static void main(String[] args) {
+		RESTClient client = new RESTClient();
+		Response response = client.request(
+				"http://127.0.0.1:8080/service/rest/UserService",
+				RESTClient.SUBMIT_METHOD_POST,
+				"{'userId':'13348610404','userName':'test user'}");
+		System.out.println(new Gson().toJson(response));
+	}
+}

@@ -1,0 +1,13 @@
+package org.levainservice.rest.oms;
+
+import org.levainservice.service.Response;
+import org.levainservice.service.oms.model.User;
+import org.levainservice.util.IdRandom;
+
+public class UserClient extends BaseClient{
+	public Response insert(User user) {
+		user.setUserId(IdRandom.getId());
+		String json = gson.toJson(user);
+		
+	}
+}
