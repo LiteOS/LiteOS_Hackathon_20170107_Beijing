@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/countbackground"
+              android:orientation="vertical">
+
+
+    // 第一横栏
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#e4d9a0"
+        android:orientation="horizontal">
+
+
+        // 后退按钮
+        <LinearLayout
+            android:layout_weight="0.5"
+            android:id="@+id/back_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+
+
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/back_png"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+
+
+        </LinearLayout>
+
+
+        // 支出
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:id="@+id/expense_layout"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+
+            android:orientation="horizontal">
+
+            <ImageView
+
+
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:background="@drawable/expense_png"/>
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="支出"
+                android:textColor="#a1a1a1"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+
+        // 收入
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:id="@+id/income_layout"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+
+            android:orientation="horizontal">
+
+            <ImageView
+
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:background="@drawable/income_png"/>
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#a1a1a1"
+                android:text="收入"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    // 第二横栏
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+
+        // 实时种类图片
+
+        <ImageView
+            android:id="@+id/type_pic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/live_png"/>
+
+        // 实时种类描述文字
+
+        <TextView
+            android:id="@+id/type_word"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#a1a1a1"
+            android:text="生活"
+            android:textSize="20dp"/>
+
+
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/type_calculate"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:textColor="#c2c2c2"
+                android:text=""
+                android:gravity="right"
+                />
+
+            <TextView
+                android:hint="0.00"
+                android:textColorHint="#c2c2c2"
+                android:id="@+id/type_amount"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="right"
+                android:textColor="#c2c2c2"
+                android:text=""
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+
+        // 种类金额
+
+
+
+    </LinearLayout>
+
+
+    // 分割线
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#000000"/>
+
+
+    <FrameLayout
+        android:id="@+id/classify"
+        android:alpha="0.8"
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#808080"/>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#808080"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f2f2f2"
+            android:alpha="0.4"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+
+                    android:id="@+id/one_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="1"/>
+
+                <Button
+
+                    android:id="@+id/two_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="2"/>
+
+                <Button
+
+                    android:id="@+id/three_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="3"/>
+
+
+                <Button
+
+                    android:id="@+id/clean_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="C"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+
+                    android:id="@+id/four_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="4"/>
+
+                <Button
+
+                    android:id="@+id/five_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="5"/>
+
+                <Button
+
+                    android:id="@+id/six_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="6"/>
+
+
+                <Button
+
+                    android:id="@+id/add_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="+"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+
+                    android:id="@+id/seven_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="7"/>
+
+                <Button
+
+                    android:id="@+id/eight_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="8"/>
+
+                <Button
+
+                    android:id="@+id/nine_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="9"/>
+
+
+                <Button
+
+                    android:id="@+id/minus_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="-"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+
+                <Button
+
+                    android:id="@+id/dot_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="."/>
+
+
+
+
+
+                <Button
+
+                    android:id="@+id/zero_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="0"/>
+
+
+                <EditText
+                    android:layout_weight="1"
+                    android:hint="填写您的备注"
+                    android:textSize="10dp"
+                    android:id="@+id/note_edit"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    />
+
+
+
+
+
+
+
+                <Button
+
+                    android:id="@+id/save_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="保存"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

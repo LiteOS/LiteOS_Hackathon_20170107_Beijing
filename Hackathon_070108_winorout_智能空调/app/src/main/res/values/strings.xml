@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CashBook</string>
+    <string name="title_activity_login">登录</string>
+    <string name="title_activity_register">注册</string>
+    <string name="title_activity_change_password">修改密码</string>
+    <string name="title_activity_setting">设置</string>
+    <string name="title_activity_person_center">个人中心</string>
+</resources>
