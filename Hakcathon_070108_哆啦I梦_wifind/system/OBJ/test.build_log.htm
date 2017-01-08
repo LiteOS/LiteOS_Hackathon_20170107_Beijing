@@ -1,0 +1,115 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\v-chaojz.FAREAST\Desktop\project\led_task\USER\test.uvproj
+Project File Date:  01/07/2017
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling startup_stm32f40_41xxx.s...
+compiling test.c...
+test.c(70): warning:  #177-D: variable "len" was declared but never referenced
+                        u8 len=USART2_RX_STA&0x3fff;//得到此次接收到的数据长度
+test.c: 1 warning, 0 errors
+compiling command.c...
+command.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+command.c: 1 warning, 0 errors
+compiling sys.c...
+compiling usart.c...
+compiling led.c...
+compiling los_priqueue.c...
+compiling los_swtmr.c...
+compiling los_sys.c...
+compiling los_task.c...
+compiling los_tick.c...
+compiling los_timeslice.c...
+compiling los_event.c...
+compiling los_mux.c...
+compiling los_queue.c...
+compiling los_sem.c...
+compiling los_membox.c...
+compiling los_memory.c...
+compiling los_memstat.c...
+compiling los_multipledlinkhead.c...
+compiling los_misc.c...
+compiling los_config.c...
+compiling los_hw.c...
+compiling los_hw_tick.c...
+compiling los_hwi.c...
+assembling los_dispatch.s...
+linking...
+Program Size: Code=10416 RO-data=440 RW-data=1196 ZI-data=36004  
+FromELF: creating hex file...
+"..\OBJ\test.axf" - 0 Error(s), 2 Warning(s).
+Load "..\\OBJ\\test.axf" 
+Set JLink Project File to "C:\Users\v-chaojz.FAREAST\Desktop\project\led_task\USER\JLinkSettings.ini"
+* JLink Info: Device "STM32F407ZG" selected (1024 KB flash, 128 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.80g, compiled Feb 13 2014 20:50:02
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F407ZG
+VTarget = 3.300V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+</pre>
+</body>
+</html>
+fo:
+------------
+DLL: V4.80g, compiled Feb 13 2014 20:50:02
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F407ZG
+VTarget = 3.300V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
