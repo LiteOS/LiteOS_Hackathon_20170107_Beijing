@@ -1,0 +1,156 @@
+<style>
+body{
+  background-image: url(http://dn-shimo-image.qbox.me/eM5NKVqpgMoxIxbi/facebook_dev_day.jpg);
+    overflow:auto;
+}
+.ad_card{
+float:left;
+position:relative;
+background-color:white;
+width:300px;
+height:290px;
+margin-left:10px;
+margin-top:5px;
+margin-bottom:5px;
+border-radius:8px;
+box-shadow:0px 2px 4px rgba(0,0,0,0.2),0px 3px 6px rgba(0,0,0,0.2);
+overflow:hidden;
+}
+.ad_card_btn{
+box-shadow:0px 1px 2px rgba(0,0,0,0.2),0px 2px 4px rgba(0,0,0,0.2);
+border-radius:2px;
+width:180px;
+height:36px;
+line-height:36px;
+text-align:center;
+border:0;
+padding:0;
+color: #999;
+font-size:14px;
+position:absolute;
+bottom:10px;
+left:60px;
+background:white;
+opacity:0.9;
+font-weight:bold;
+cursor:pointer;
+}
+.ad_card_info{
+width:100%;height:100%;
+background-position:center center;
+background-size:cover;
+background-repeat:no-repeat;
+}
+.limg0{
+background-image:url(http://dn-shimo-image.qbox.me/r3AVRo4mMtspBjjT/1850801409.jpg);
+background-position:100% bottom;
+}
+.limg1{
+background-image:url(http://dn-shimo-image.qbox.me/5f88EROYXBA8XoJl/240460-1405130IF693.jpg);
+background-size:100% auto;
+}
+</style>
+<script>
+$(window).on("load",function(){
+ready_now();
+});
+$(window).on("resize",function(){
+ready_now();
+});
+
+function ok_send(key){
+
+if(key=="1"){
+    secretSubmitComment("HUAWEI//CMD//00$9!","LITEOSDEMO")
+    secretSubmitComment("主任我❤️你","4e0cba4bd4cc4c3298ecf428c1e73519")
+}else if(key=="2"){
+    secretSubmitComment("HUAWEI//CMD//00$3!","LITEOSDEMO")
+    secretSubmitComment("罪孽深重了","4e0cba4bd4cc4c3298ecf428c1e73519")
+}else if(key=="3"){
+    secretSubmitComment("HUAWEI//CMD//00$2!","LITEOSDEMO")
+    secretSubmitComment("稍等","4e0cba4bd4cc4c3298ecf428c1e73519")
+}else if(key=="4"){
+    secretSubmitComment("HUAWEI//CMD//00$1!","LITEOSDEMO")
+    setTimeout(function(){
+        secretSubmitComment("HUAWEI//CMD//00$1!","LITEOSDEMO")
+    },500)
+    secretSubmitComment("OK","4e0cba4bd4cc4c3298ecf428c1e73519")
+}else if(key=="5"){
+    secretSubmitComment("HUAWEI//CMD//00$1!","LITEOSDEMO")
+    setTimeout(function(){
+        secretSubmitComment("HUAWEI//CMD//00$1!","LITEOSDEMO")
+    },500)
+    setTimeout(function(){
+        secretSubmitComment("HUAWEI//CMD//00$1!","LITEOSDEMO")
+   },600)
+   secretSubmitComment("NO","4e0cba4bd4cc4c3298ecf428c1e73519")
+}else if(key=="6"){
+    secretSubmitComment("HUAWEI//CMD//00$1!","LITEOSDEMO")
+    setTimeout(function(){
+        secretSubmitComment("HUAWEI//CMD//00$1!","LITEOSDEMO")
+    },100)
+    secretSubmitComment("抽烟不？","4e0cba4bd4cc4c3298ecf428c1e73519")
+}else if(key=="7"){
+    secretSubmitComment("HUAWEI//CMD//00$1!","LITEOSDEMO")
+    setTimeout(function(){
+        secretSubmitComment("HUAWEI//CMD//00$1!","LITEOSDEMO")
+    },100)
+    setTimeout(function(){
+        secretSubmitComment("HUAWEI//CMD//00$1!","LITEOSDEMO")
+    },200)
+    secretSubmitComment("下班不？","4e0cba4bd4cc4c3298ecf428c1e73519")
+}else if(key=="8"){
+    secretSubmitComment("HUAWEI//CMD//00$3!","LITEOSDEMO")
+    secretSubmitComment("看这里","4e0cba4bd4cc4c3298ecf428c1e73519")
+}
+
+}
+
+
+
+function ready_now(){
+var aw = window.innerWidth
+var ah = window.innerHeight
+$("#scrollee").remove()
+//$("body").append('<div id="scrollee" style="width:'+aw+'px;height:'+ah+'px;-webkit-overflow-scrolling:touch; overflow: scroll;position:fixed;left:0;top:0;"><iframe src="http://www.bluefocus.com" style="width:100%;height:100%;position:relative;border:0;"><iframe></div>');
+$("body").append('<div id="scrollee" style="width:'+aw+'px;height:'+ah+'px;-webkit-overflow-scrolling:touch; overflow: scroll;position:fixed;left:0;top:0;padding-top:10px;padding-bottom:10px;">'+'<div class="ad_card"><div class="ad_card_info limg0"><button class="ad_card_btn" onclick="ok_send(1)">主任我❤️你</button></div></div>'+'<div class="ad_card"><div class="ad_card_info limg1"><button class="ad_card_btn" onclick="ok_send(2)">罪孽深重</button></div></div>'+'<div class="ad_card"><div class="ad_card_info"><button class="ad_card_btn" onclick="ok_send(8)">看这里。</button><button class="ad_card_btn" style="bottom:56px" onclick="ok_send(7)">下班吗？</button><button class="ad_card_btn" style="bottom:102px" onclick="ok_send(6)">抽支烟？</button><button class="ad_card_btn" style="bottom:148px" onclick="ok_send(3)">答复稍等</button><button class="ad_card_btn" style="bottom:194px" onclick="ok_send(5)">答复NO</button><button class="ad_card_btn" style="bottom:240px" onclick="ok_send(4)">答复OK</button></div></div>'+'</div>')
+wx.ready(function(){
+        // wx.hideAllNonBaseMenuItem();
+        wx.showAllNonBaseMenuItem();
+        wx.onMenuShareAppMessage({
+            title: 'MMPLUS | 夏力维の留言墙', // 分享标题
+            desc: '在线编码神器，H5前端轻松快速发布，所编即可得！从未有过的诚意工具之作，正如我们所知道的，同所有的渴求与尝试的人们站在一起。', // 分享描述
+            link: 'http://www.hotpoor.org/home/mmplus?user_id='+OWNER_ID, // 分享链接
+            imgUrl: 'http://wx.qlogo.cn/mmopen/srPhFAq751Ih4TJNFR6af7w8BYEtSqqzqeMY7iaxtOAPgZGibt0Wpq5J5nrKqUEF05w4HibmT2UmGMR83UCSWXeHKX2F67zibhicN/0', // 分享图标
+            type: '', // 分享类型,music、video或link，不填默认为link
+            dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+            success: function () { 
+                // 用户确认分享后执行的回调函数
+                // alert("success");
+            },
+            cancel: function () { 
+                // 用户取消分享后执行的回调函数
+                // alert("fail");
+            }
+        });
+
+        wx.onMenuShareTimeline({
+            title: 'MMPLUS | 夏力维の留言墙', // 分享标题
+            link: 'http://www.hotpoor.org/home/mmplus?user_id='+OWNER_ID, // 分享链接
+            imgUrl: 'http://wx.qlogo.cn/mmopen/srPhFAq751Ih4TJNFR6af7w8BYEtSqqzqeMY7iaxtOAPgZGibt0Wpq5J5nrKqUEF05w4HibmT2UmGMR83UCSWXeHKX2F67zibhicN/0', // 分享图标
+            success: function () { 
+                // 用户确认分享后执行的回调函数
+            },
+            cancel: function () { 
+                // 用户取消分享后执行的回调函数
+            }
+        });
+        wx.getNetworkType({
+            success: function (res) {
+                var networkType = res.networkType; // 返回网络类型2g，3g，4g，wifi
+                console.log(networkType);
+            }
+        });
+    });
+}
+</script>
