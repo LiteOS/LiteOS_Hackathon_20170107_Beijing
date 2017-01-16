@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@drawable/qa_bar"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/id_fengshan"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1" >
+        
+        <ImageButton
+            android:id="@+id/id_fengshan_img"
+           android:layout_width="36dp"
+           android:layout_height="36dp"
+           android:scaleType="centerInside"
+           android:clickable="false"
+           android:layout_gravity="center"
+           android:src="@drawable/mode_wind_black"
+           android:background="#00000000"
+            />
+        <TextView
+            android:id="@+id/id_fengshan_text"
+            android:text="风扇"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:id="@+id/id_chuanglian"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1" >
+        
+        <ImageButton
+            android:id="@+id/id_chuanglian_img"
+            android:layout_width="36dp"
+           android:layout_height="36dp"
+           android:scaleType="centerInside"
+           android:clickable="false"
+           android:layout_gravity="center"
+           android:background="#00000000"
+            />
+        <TextView
+            android:text="窗帘"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/id_chazuo"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1" >
+        
+        <ImageButton
+            android:id="@+id/id_chazuo_img"
+            android:layout_width="36dp"
+           android:layout_height="36dp"
+           android:scaleType="centerInside"
+           android:clickable="false"
+           android:layout_gravity="center"
+           android:src="@drawable/device_calc_dock_close_big"
+           android:background="#00000000"
+            />
+        <TextView
+            android:text="插座"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/id_RGBLED"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:text="@string/btn_color_picker" >
+        
+        <ImageButton
+            android:id="@+id/id_RGBLED_img"
+            android:layout_width="36dp"
+           android:layout_height="36dp"
+           android:scaleType="centerInside"
+           android:clickable="false"
+           android:layout_gravity="center"
+           android:src="@drawable/round_color2"
+           android:background="#00000000"
+            />
+        <TextView
+            android:text="LED"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			
+        />
+    </LinearLayout>
+
+</LinearLayout>

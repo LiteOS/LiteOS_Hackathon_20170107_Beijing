@@ -1,0 +1,12 @@
+package org.levainservice.rest.oms;
+
+import org.levainservice.service.Response;
+import org.levainservice.service.oms.model.User;
+
+public class UserClient extends BaseClient{
+	public Response insert(User user) {
+		
+		String json = gson.toJson(user);
+		
+	}
+}

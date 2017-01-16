@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/MatchWrap.Vertical"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_alignParentBottom="true">
+
+    <LinearLayout style="@style/MatchWrap.Horizontal"
+                  android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/scan_barcode"
+            style="@style/AutoWrapTv"
+            android:text="扫条码"/>
+
+        <TextView
+            android:id="@+id/scan_qrcode"
+            style="@style/AutoWrapTv"
+            android:text="扫二维码"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/MatchWrap.Horizontal"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/open_flashlight"
+            style="@style/AutoWrapTv"
+            android:text="开灯"/>
+
+        <TextView
+            android:id="@+id/close_flashlight"
+            style="@style/AutoWrapTv"
+            android:text="关灯"/>
+    </LinearLayout>
+</LinearLayout>

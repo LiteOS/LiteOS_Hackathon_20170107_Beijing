@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@drawable/setbackground"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/top_bar"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#fff"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="250dp"
+            android:layout_height="250dp">
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:text="留言板"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <EditText
+                android:id="@+id/editText"
+                android:textSize="15dp"
+                android:background="#f2eeee"
+                android:hint=" 谢谢您提出宝贵的建议"
+                android:gravity="left|top"
+                android:layout_width="250dp"
+                android:layout_height="150dp"/>
+
+            <Button
+                android:id="@+id/leave_message"
+                android:layout_marginTop="15dp"
+                android:background="#000000"
+                android:text="留言"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/cloth_btn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/cloth_png"/>
+
+
+            <TextView
+                android:textColor="#a1a1a1"
+
+                android:layout_width="45dp"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:text="衣服"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/communication_btn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/communication_png"/>
+
+
+            <TextView
+                android:textColor="#a1a1a1"
+
+                android:layout_width="45dp"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:text="通讯"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/daily_btn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/daily"/>
+
+
+            <TextView
+                android:textColor="#a1a1a1"
+
+                android:layout_width="45dp"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:text="日用品"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/live_btn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/live_png"/>
+
+
+            <TextView
+                android:textColor="#a1a1a1"
+
+                android:layout_width="45dp"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:text="生活"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/food_btn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/food_png"/>
+
+
+            <TextView
+                android:textColor="#a1a1a1"
+
+                android:layout_width="45dp"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:text="食品"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:orientation="vertical">
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    // 第四栏
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:orientation="vertical">
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/friendship_btn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/friendship_png"/>
+
+
+            <TextView
+                android:textColor="#a1a1a1"
+
+                android:layout_width="45dp"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:text="人情"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/house_btn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/house_png"/>
+
+
+            <TextView
+                android:textColor="#a1a1a1"
+
+                android:layout_width="45dp"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:text="房租"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/medicine_btn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/medicine_png"/>
+
+
+            <TextView
+                android:textColor="#a1a1a1"
+
+                android:layout_width="45dp"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:text="医药"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/traffic_btn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/traffic_png"/>
+
+
+            <TextView
+                android:textColor="#a1a1a1"
+
+                android:layout_width="45dp"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:text="交通"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/other_btn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/other_png"/>
+
+
+            <TextView
+                android:textColor="#a1a1a1"
+                android:layout_width="45dp"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:text="其他"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:orientation="vertical">
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

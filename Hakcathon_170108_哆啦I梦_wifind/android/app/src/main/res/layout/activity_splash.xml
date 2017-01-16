@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background3x"
+    android:orientation="vertical"
+    tools:context="com.example.apple.login.SplashActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130px"
+            android:layout_marginBottom="140px"
+            android:src="@mipmap/logo3x"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="0dp"
+            android:background="@color/colorPrimaryDark"/>
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="1dp"
+            android:background="@color/colorWhite"/>
+
+
+        <View
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:layout_marginRight="0dp"
+            android:background="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-20dp">
+
+        <ImageView
+            android:background="@drawable/arrow"
+            android:src="@mipmap/arrow_down3x"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:id="@+id/circle"/>
+    </LinearLayout>
+
+</LinearLayout>

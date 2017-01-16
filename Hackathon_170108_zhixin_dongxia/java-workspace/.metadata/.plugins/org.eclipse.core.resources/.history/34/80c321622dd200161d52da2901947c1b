@@ -1,0 +1,13 @@
+package org.levainservice.rest.oms;
+
+import org.levainservice.rest.RESTClient;
+
+public class BaseClient {
+	public static final String SERVICE_BASE_URL = "http://127.0.0.1:8080/ihardware-srv";
+
+	public RESTClient client = new RESTClient();;
+
+	public BaseClient() {
+		
+	}
+}

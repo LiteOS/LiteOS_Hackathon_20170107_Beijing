@@ -1,0 +1,28 @@
+package org.levainservice.rest.oms;
+
+import org.levainservice.rest.RESTClient;
+import org.levainservice.rest.Response;
+import org.levainservice.service.oms.model.User;
+import org.levainservice.util.IdRandom;
+
+public class DeviceClient extends BaseClient{
+	private static final String RESOURCE_PATH = "/userService";
+	
+	public Response insert(User user) {
+		long id = Long.parseLong(IdRandom.getId());
+		user.setUserId(id);
+		String json = gson.toJson(user);
+		String servicePort = BaseClient.SERVICE_BASE_URL + RESOURCE_PATH + "/";
+		
+		Response response = client.request(servicePort, RESTClient.SUBMIT_METHOD_POST, json);
+		return response;
+	}
+	
+	public Response signin(User user) {
+		String json = gson.toJson(user);
+		String servicePort = BaseClient.SERVICE_BASE_URL + RESOURCE_PATH + "/signin";
+		
+		Response response = client.request(servicePort, RESTClient.SUBMIT_METHOD_POST, json);
+		return response;
+	}
+}

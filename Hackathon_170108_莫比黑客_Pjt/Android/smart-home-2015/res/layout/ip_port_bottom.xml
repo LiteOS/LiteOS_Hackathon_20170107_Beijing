@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@drawable/qa_bar"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/clientLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/clientTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="请输入IP地址（服务器IP地址：端口号）" />
+
+        <RelativeLayout
+            android:id="@+id/connectLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/clientTextView"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/StartConnect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/IPText"
+                android:layout_alignParentRight="true"
+                android:text="连接服务器" />
+
+            <EditText
+                android:id="@+id/IPText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/StartConnect"
+                android:hint="请输入IP地址" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/connectSendLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/clientMessageText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/SendButtonClient"
+        android:layout_alignBottom="@+id/SendButtonClient"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/SendButtonClient"
+        android:ems="10"
+        android:hint="请输入发送内容" />
+
+    <Button
+        android:id="@+id/SendButtonClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/clientLayout"
+        android:text="发送" />
+
+    <TextView
+        android:id="@+id/RecvText"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/clientMessageText"
+        android:text="信息：\n" />
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+package com.levainservice.service.oms;
+
+import com.levainservice.service.AbstractResource;
+
+public class UserService extends AbstractResource{
+
+}

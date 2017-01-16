@@ -1,0 +1,26 @@
+package org.levainservice.rest.oms;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class DeviceClientTest {
+
+	@Test
+	public void testInsert() {
+		User user = new User();
+		user.setUserName("rest-001");
+		user.setUserPasswd("rest-p-001");
+		user.setMobile("15300010001");
+		user.setTel("0731-88888881");
+		
+		Response r = client.insert(user);
+		System.out.println(new Gson().toJson(r));
+	}
+
+	@Test
+	public void testListDevices() {
+		fail("Not yet implemented");
+	}
+
+}

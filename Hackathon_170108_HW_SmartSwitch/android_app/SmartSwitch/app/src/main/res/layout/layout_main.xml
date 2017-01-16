@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/backgroundMain"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_device_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="选择定时时间"
+        />
+
+    <com.hiwhitley.smartswitch.base.CircleTimerView
+        android:id="@+id/ctv"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+    </com.hiwhitley.smartswitch.base.CircleTimerView>
+
+    <RadioGroup
+        android:id="@+id/rp_select_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:textColor="#FFFA7777"
+            android:gravity="center"
+            android:text="15"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:gravity="center"
+            android:text="30"
+            android:textColor="#FFFA7777"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="#FFFA7777"
+            android:text="45"
+            android:textSize="25sp"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="开始定时"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btn_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="暂停"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:visibility="gone"/>
+    </LinearLayout>
+</LinearLayout>

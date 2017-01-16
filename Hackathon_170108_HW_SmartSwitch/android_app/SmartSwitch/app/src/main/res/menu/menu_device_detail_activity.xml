@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_time_task"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_time_task"
+        android:title="@string/action_bar_time_task"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_edit"
+        android:orderInCategory="2"
+        android:title="@string/action_bar_edit_text"
+        app:showAsAction="ifRoom"/>
+</menu>

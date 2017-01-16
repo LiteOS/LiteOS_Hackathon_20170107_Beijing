@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="colorPrimary">#FF16BB8E</color>
+    <color name="colorPrimaryDark">#FF16BB8E</color>
+    <color name="colorAccent">#FF16BB8E</color>
+
+    <color name="ui_green">#FF16BB8E</color>
+    <color name="ui_deep_green">#FF108D6C</color>
+    <color name="ui_light_gray">#FFF2F2F2</color>
+
+    <color name="backgroundMain">#F1F1F1</color>
+    <color name="white_bg">#ffffff</color>
+    <color name="button_bg_normal">#ffffffff</color>
+    <color name="button_bg_pressed">#ffdddddd</color>
+
+    <!-- 字体配色 -->
+    <color name="font_white">#FFFFFFFF</color>
+    <color name="font_pink">#FFFA7777</color>、
+    <color name="font_light">#ABABAB</color>
+    <color name="font_medium">#FF666666</color>
+    <color name="font_black">#FF333333</color>
+
+    <!--ColorDialog-->
+    <color name="color_dialog_gray">#ededf3</color>
+    <color name="color_dialog_content">#FFFA7777</color>
+    <color name="color_dialog_title">#303030</color>
+    <color name="color_dialog_content_prompt">#343434</color>
+</resources>

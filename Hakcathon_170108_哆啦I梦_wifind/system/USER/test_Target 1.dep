@@ -1,0 +1,444 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f40_41xxx.s)(0x542E6B04)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include--list ..\obj\startup_stm32f40_41xxx.lst --xref -o ..\obj\startup_stm32f40_41xxx.o --depend ..\obj\startup_stm32f40_41xxx.d)
+F (.\test.c)(0x5870A50F)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\test.o --omf_browse ..\obj\test.crf --depend ..\obj\test.d)
+I (..\SYSTEM\sys\sys.h)(0x586F3199)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA48A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm4.h)(0x538426C6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm4_simd.h)(0x5302A2D0)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA49A)
+I (..\SYSTEM\usart\usart.h)(0x586F93EA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\HARDWARE\LED\led.h)(0x53660F46)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\Huawei_LiteOS\kernel\include\los_base.h)(0x577472B4)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h)(0x586B76A8)
+I (..\Huawei_LiteOS\kernel\include\los_typedef.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h)(0x586F46AC)
+I (..\Huawei_LiteOS\kernel\include\los_printf.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_list.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_errno.h)(0x5773AA04)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.h)(0x586B5985)
+I (..\Huawei_LiteOS\kernel\include\los_sys.h)(0x57732551)
+I (..\Huawei_LiteOS\kernel\base\include\los_task.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_task.h)(0x5773A94A)
+I (..\Huawei_LiteOS\kernel\include\los_tick.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_event.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_sem.h)(0x5773A946)
+I (..\Huawei_LiteOS\kernel\include\los_memory.h)(0x577473AD)
+I (..\Huawei_LiteOS\kernel\base\include\los_queue.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_queue.h)(0x57747965)
+F (.\command.c)(0x58705A10)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\command.o --omf_browse ..\obj\command.crf --depend ..\obj\command.d)
+I (command.h)(0x58705CB1)
+F (..\SYSTEM\sys\sys.c)(0x542AA96A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x586F3199)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA48A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm4.h)(0x538426C6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm4_simd.h)(0x5302A2D0)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA49A)
+F (..\SYSTEM\usart\usart.c)(0x5870A2D8)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x586F3199)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA48A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm4.h)(0x538426C6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm4_simd.h)(0x5302A2D0)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA49A)
+I (..\SYSTEM\usart\usart.h)(0x586F93EA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.h)(0x586B5985)
+I (..\Huawei_LiteOS\kernel\include\los_base.h)(0x577472B4)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h)(0x586B76A8)
+I (..\Huawei_LiteOS\kernel\include\los_typedef.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h)(0x586F46AC)
+I (..\Huawei_LiteOS\kernel\include\los_printf.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_list.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_errno.h)(0x5773AA04)
+I (..\Huawei_LiteOS\kernel\include\los_sys.h)(0x57732551)
+F (..\HARDWARE\LED\led.c)(0x53FEB8D8)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\HARDWARE\LED\led.h)(0x53660F46)
+I (..\SYSTEM\sys\sys.h)(0x586F3199)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA48A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm4.h)(0x538426C6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm4_simd.h)(0x5302A2D0)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA49A)
+F (..\Huawei_LiteOS\kernel\base\core\los_priqueue.c)(0x5772141F)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\los_priqueue.o --omf_browse ..\obj\los_priqueue.crf --depend ..\obj\los_priqueue.d)
+I (..\Huawei_LiteOS\kernel\base\core\los_priqueue.inc)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_priqueue.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_priqueue.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_list.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_base.h)(0x577472B4)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h)(0x586B76A8)
+I (..\Huawei_LiteOS\kernel\include\los_typedef.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h)(0x586F46AC)
+I (..\Huawei_LiteOS\kernel\include\los_printf.h)(0x5772141F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Huawei_LiteOS\kernel\include\los_errno.h)(0x5773AA04)
+I (..\Huawei_LiteOS\kernel\base\include\los_base.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_task.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_task.h)(0x5773A94A)
+I (..\Huawei_LiteOS\kernel\include\los_sys.h)(0x57732551)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.h)(0x586B5985)
+I (..\Huawei_LiteOS\kernel\include\los_tick.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_event.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_memory.h)(0x577473AD)
+F (..\Huawei_LiteOS\kernel\base\core\los_swtmr.c)(0x5773A666)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\los_swtmr.o --omf_browse ..\obj\los_swtmr.crf --depend ..\obj\los_swtmr.d)
+I (..\Huawei_LiteOS\kernel\base\core\los_swtmr.inc)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_swtmr.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_swtmr.h)(0x5773966D)
+I (..\Huawei_LiteOS\kernel\include\los_base.h)(0x577472B4)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h)(0x586B76A8)
+I (..\Huawei_LiteOS\kernel\include\los_typedef.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h)(0x586F46AC)
+I (..\Huawei_LiteOS\kernel\include\los_printf.h)(0x5772141F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Huawei_LiteOS\kernel\include\los_list.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_errno.h)(0x5773AA04)
+I (..\Huawei_LiteOS\kernel\include\los_task.h)(0x5773A94A)
+I (..\Huawei_LiteOS\kernel\include\los_sys.h)(0x57732551)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.h)(0x586B5985)
+I (..\Huawei_LiteOS\kernel\include\los_tick.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_event.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_base.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_membox.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_membox.h)(0x5773A60E)
+I (..\Huawei_LiteOS\kernel\base\include\los_memory.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_memory.h)(0x577473AD)
+I (..\Huawei_LiteOS\kernel\base\include\los_queue.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_queue.h)(0x57747965)
+I (..\Huawei_LiteOS\kernel\base\include\los_task.ph)(0x5772141F)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+F (..\Huawei_LiteOS\kernel\base\core\los_sys.c)(0x5772141F)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\los_sys.o --omf_browse ..\obj\los_sys.crf --depend ..\obj\los_sys.d)
+I (..\Huawei_LiteOS\kernel\base\core\los_sys.inc)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_sys.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_base.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_base.h)(0x577472B4)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h)(0x586B76A8)
+I (..\Huawei_LiteOS\kernel\include\los_typedef.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h)(0x586F46AC)
+I (..\Huawei_LiteOS\kernel\include\los_printf.h)(0x5772141F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Huawei_LiteOS\kernel\include\los_list.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_errno.h)(0x5773AA04)
+I (..\Huawei_LiteOS\kernel\include\los_sys.h)(0x57732551)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.h)(0x586B5985)
+I (..\Huawei_LiteOS\kernel\base\include\los_tick.ph)(0x586B6E0C)
+I (..\Huawei_LiteOS\kernel\include\los_tick.h)(0x5772141F)
+F (..\Huawei_LiteOS\kernel\base\core\los_task.c)(0x5791C7A5)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\los_task.o --omf_browse ..\obj\los_task.crf --depend ..\obj\los_task.d)
+I (..\Huawei_LiteOS\kernel\base\core\los_task.inc)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_task.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_task.h)(0x5773A94A)
+I (..\Huawei_LiteOS\kernel\include\los_base.h)(0x577472B4)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h)(0x586B76A8)
+I (..\Huawei_LiteOS\kernel\include\los_typedef.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h)(0x586F46AC)
+I (..\Huawei_LiteOS\kernel\include\los_printf.h)(0x5772141F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Huawei_LiteOS\kernel\include\los_list.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_errno.h)(0x5773AA04)
+I (..\Huawei_LiteOS\kernel\include\los_sys.h)(0x57732551)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.h)(0x586B5985)
+I (..\Huawei_LiteOS\kernel\include\los_tick.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_event.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_base.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_memory.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_memory.h)(0x577473AD)
+I (..\Huawei_LiteOS\kernel\base\include\los_priqueue.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_priqueue.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_sem.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_sem.h)(0x5773A946)
+I (..\Huawei_LiteOS\kernel\base\include\los_mux.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_mux.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hw.h)(0x586B7EF7)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+F (..\Huawei_LiteOS\kernel\base\core\los_tick.c)(0x586B60E8)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\los_tick.o --omf_browse ..\obj\los_tick.crf --depend ..\obj\los_tick.d)
+I (..\Huawei_LiteOS\kernel\base\core\los_tick.inc)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_tick.ph)(0x586B6E0C)
+I (..\Huawei_LiteOS\kernel\include\los_tick.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_errno.h)(0x5773AA04)
+I (..\Huawei_LiteOS\kernel\include\los_typedef.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h)(0x586B76A8)
+I (..\Huawei_LiteOS\kernel\base\include\los_base.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_base.h)(0x577472B4)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h)(0x586F46AC)
+I (..\Huawei_LiteOS\kernel\include\los_printf.h)(0x5772141F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Huawei_LiteOS\kernel\include\los_list.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_swtmr.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_swtmr.h)(0x5773966D)
+I (..\Huawei_LiteOS\kernel\include\los_task.h)(0x5773A94A)
+I (..\Huawei_LiteOS\kernel\include\los_sys.h)(0x57732551)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.h)(0x586B5985)
+I (..\Huawei_LiteOS\kernel\include\los_event.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_task.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_timeslice.ph)(0x5772141F)
+F (..\Huawei_LiteOS\kernel\base\core\los_timeslice.c)(0x57732701)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\los_timeslice.o --omf_browse ..\obj\los_timeslice.crf --depend ..\obj\los_timeslice.d)
+I (..\Huawei_LiteOS\kernel\base\include\los_sys.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_base.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_base.h)(0x577472B4)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h)(0x586B76A8)
+I (..\Huawei_LiteOS\kernel\include\los_typedef.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h)(0x586F46AC)
+I (..\Huawei_LiteOS\kernel\include\los_printf.h)(0x5772141F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Huawei_LiteOS\kernel\include\los_list.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_errno.h)(0x5773AA04)
+I (..\Huawei_LiteOS\kernel\include\los_sys.h)(0x57732551)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.h)(0x586B5985)
+I (..\Huawei_LiteOS\kernel\base\include\los_task.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_task.h)(0x5773A94A)
+I (..\Huawei_LiteOS\kernel\include\los_tick.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_event.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_tick.ph)(0x586B6E0C)
+I (..\Huawei_LiteOS\kernel\base\include\los_typedef.ph)(0x5772141F)
+F (..\Huawei_LiteOS\kernel\base\ipc\los_event.c)(0x578E12CD)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\los_event.o --omf_browse ..\obj\los_event.crf --depend ..\obj\los_event.d)
+I (..\Huawei_LiteOS\kernel\base\ipc\los_event.inc)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_event.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_event.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_base.h)(0x577472B4)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h)(0x586B76A8)
+I (..\Huawei_LiteOS\kernel\include\los_typedef.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h)(0x586F46AC)
+I (..\Huawei_LiteOS\kernel\include\los_printf.h)(0x5772141F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Huawei_LiteOS\kernel\include\los_list.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_errno.h)(0x5773AA04)
+I (..\Huawei_LiteOS\kernel\base\include\los_priqueue.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_priqueue.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_task.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_task.h)(0x5773A94A)
+I (..\Huawei_LiteOS\kernel\include\los_sys.h)(0x57732551)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.h)(0x586B5985)
+I (..\Huawei_LiteOS\kernel\include\los_tick.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hw.h)(0x586B7EF7)
+F (..\Huawei_LiteOS\kernel\base\ipc\los_mux.c)(0x578E12E2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\los_mux.o --omf_browse ..\obj\los_mux.crf --depend ..\obj\los_mux.d)
+I (..\Huawei_LiteOS\kernel\base\ipc\los_mux.inc)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_mux.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_task.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_task.h)(0x5773A94A)
+I (..\Huawei_LiteOS\kernel\include\los_base.h)(0x577472B4)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h)(0x586B76A8)
+I (..\Huawei_LiteOS\kernel\include\los_typedef.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h)(0x586F46AC)
+I (..\Huawei_LiteOS\kernel\include\los_printf.h)(0x5772141F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Huawei_LiteOS\kernel\include\los_list.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_errno.h)(0x5773AA04)
+I (..\Huawei_LiteOS\kernel\include\los_sys.h)(0x57732551)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.h)(0x586B5985)
+I (..\Huawei_LiteOS\kernel\include\los_tick.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_event.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_mux.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_memory.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_memory.h)(0x577473AD)
+I (..\Huawei_LiteOS\kernel\base\include\los_priqueue.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_priqueue.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hw.h)(0x586B7EF7)
+F (..\Huawei_LiteOS\kernel\base\ipc\los_queue.c)(0x578E12F6)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\los_queue.o --omf_browse ..\obj\los_queue.crf --depend ..\obj\los_queue.d)
+I (..\Huawei_LiteOS\kernel\base\ipc\los_queue.inc)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_queue.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_queue.h)(0x57747965)
+I (..\Huawei_LiteOS\kernel\include\los_base.h)(0x577472B4)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h)(0x586B76A8)
+I (..\Huawei_LiteOS\kernel\include\los_typedef.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h)(0x586F46AC)
+I (..\Huawei_LiteOS\kernel\include\los_printf.h)(0x5772141F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Huawei_LiteOS\kernel\include\los_list.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_errno.h)(0x5773AA04)
+I (..\Huawei_LiteOS\kernel\base\include\los_membox.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_membox.h)(0x5773A60E)
+I (..\Huawei_LiteOS\kernel\base\include\los_memory.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_memory.h)(0x577473AD)
+I (..\Huawei_LiteOS\kernel\base\include\los_priqueue.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_priqueue.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_task.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_task.h)(0x5773A94A)
+I (..\Huawei_LiteOS\kernel\include\los_sys.h)(0x57732551)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.h)(0x586B5985)
+I (..\Huawei_LiteOS\kernel\include\los_tick.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_event.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hw.h)(0x586B7EF7)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+F (..\Huawei_LiteOS\kernel\base\ipc\los_sem.c)(0x578E12FC)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\los_sem.o --omf_browse ..\obj\los_sem.crf --depend ..\obj\los_sem.d)
+I (..\Huawei_LiteOS\kernel\base\ipc\los_sem.inc)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_sem.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_sem.h)(0x5773A946)
+I (..\Huawei_LiteOS\kernel\include\los_base.h)(0x577472B4)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h)(0x586B76A8)
+I (..\Huawei_LiteOS\kernel\include\los_typedef.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h)(0x586F46AC)
+I (..\Huawei_LiteOS\kernel\include\los_printf.h)(0x5772141F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Huawei_LiteOS\kernel\include\los_list.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_errno.h)(0x5773AA04)
+I (..\Huawei_LiteOS\kernel\include\los_task.h)(0x5773A94A)
+I (..\Huawei_LiteOS\kernel\include\los_sys.h)(0x57732551)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.h)(0x586B5985)
+I (..\Huawei_LiteOS\kernel\include\los_tick.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_event.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_base.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_memory.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_memory.h)(0x577473AD)
+I (..\Huawei_LiteOS\kernel\base\include\los_priqueue.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_priqueue.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_sys.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_task.ph)(0x5772141F)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hw.h)(0x586B7EF7)
+F (..\Huawei_LiteOS\kernel\base\mem\los_membox.c)(0x5773A5DC)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\los_membox.o --omf_browse ..\obj\los_membox.crf --depend ..\obj\los_membox.d)
+I (..\Huawei_LiteOS\kernel\base\mem\los_membox.inc)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_membox.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_membox.h)(0x5773A60E)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h)(0x586F46AC)
+I (..\Huawei_LiteOS\kernel\include\los_typedef.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h)(0x586B76A8)
+I (..\Huawei_LiteOS\kernel\include\los_printf.h)(0x5772141F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Huawei_LiteOS\kernel\base\include\los_base.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_base.h)(0x577472B4)
+I (..\Huawei_LiteOS\kernel\include\los_list.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_errno.h)(0x5773AA04)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.h)(0x586B5985)
+I (..\Huawei_LiteOS\kernel\include\los_sys.h)(0x57732551)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+F (..\Huawei_LiteOS\kernel\base\mem\los_memory.c)(0x577473A3)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\los_memory.o --omf_browse ..\obj\los_memory.crf --depend ..\obj\los_memory.d)
+I (..\Huawei_LiteOS\kernel\base\mem\los_memory.inc)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_memory.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_memory.h)(0x577473AD)
+I (..\Huawei_LiteOS\kernel\include\los_base.h)(0x577472B4)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h)(0x586B76A8)
+I (..\Huawei_LiteOS\kernel\include\los_typedef.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h)(0x586F46AC)
+I (..\Huawei_LiteOS\kernel\include\los_printf.h)(0x5772141F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Huawei_LiteOS\kernel\include\los_list.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_errno.h)(0x5773AA04)
+I (..\Huawei_LiteOS\kernel\base\include\los_multipledlinkhead.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_multipledlinkhead.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_memstat.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_task.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_task.h)(0x5773A94A)
+I (..\Huawei_LiteOS\kernel\include\los_sys.h)(0x57732551)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.h)(0x586B5985)
+I (..\Huawei_LiteOS\kernel\include\los_tick.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_event.h)(0x5772141F)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+F (..\Huawei_LiteOS\kernel\base\mem\los_memstat.c)(0x5772141F)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\los_memstat.o --omf_browse ..\obj\los_memstat.crf --depend ..\obj\los_memstat.d)
+I (..\Huawei_LiteOS\kernel\base\mem\los_memstat.inc)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_memstat.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_typedef.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h)(0x586B76A8)
+I (..\Huawei_LiteOS\kernel\base\include\los_task.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_task.h)(0x5773A94A)
+I (..\Huawei_LiteOS\kernel\include\los_base.h)(0x577472B4)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h)(0x586F46AC)
+I (..\Huawei_LiteOS\kernel\include\los_printf.h)(0x5772141F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Huawei_LiteOS\kernel\include\los_list.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_errno.h)(0x5773AA04)
+I (..\Huawei_LiteOS\kernel\include\los_sys.h)(0x57732551)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.h)(0x586B5985)
+I (..\Huawei_LiteOS\kernel\include\los_tick.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_event.h)(0x5772141F)
+F (..\Huawei_LiteOS\kernel\base\mem\los_multipledlinkhead.c)(0x5772141F)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\los_multipledlinkhead.o --omf_browse ..\obj\los_multipledlinkhead.crf --depend ..\obj\los_multipledlinkhead.d)
+I (..\Huawei_LiteOS\kernel\base\mem\los_multipledlinkhead.inc)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_multipledlinkhead.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_multipledlinkhead.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_base.h)(0x577472B4)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h)(0x586B76A8)
+I (..\Huawei_LiteOS\kernel\include\los_typedef.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h)(0x586F46AC)
+I (..\Huawei_LiteOS\kernel\include\los_printf.h)(0x5772141F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Huawei_LiteOS\kernel\include\los_list.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_errno.h)(0x5773AA04)
+F (..\Huawei_LiteOS\kernel\base\misc\los_misc.c)(0x5772141F)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\los_misc.o --omf_browse ..\obj\los_misc.crf --depend ..\obj\los_misc.d)
+I (..\Huawei_LiteOS\kernel\base\include\los_base.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_base.h)(0x577472B4)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h)(0x586B76A8)
+I (..\Huawei_LiteOS\kernel\include\los_typedef.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h)(0x586F46AC)
+I (..\Huawei_LiteOS\kernel\include\los_printf.h)(0x5772141F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Huawei_LiteOS\kernel\include\los_list.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_errno.h)(0x5773AA04)
+I (..\Huawei_LiteOS\kernel\base\include\los_sys.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_sys.h)(0x57732551)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.h)(0x586B5985)
+I (..\Huawei_LiteOS\kernel\base\include\los_task.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_task.h)(0x5773A94A)
+I (..\Huawei_LiteOS\kernel\include\los_tick.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_event.h)(0x5772141F)
+F (..\Huawei_LiteOS\platform\bsp\sample\config\los_config.c)(0x58709F50)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\los_config.o --omf_browse ..\obj\los_config.crf --depend ..\obj\los_config.d)
+I (..\Huawei_LiteOS\kernel\include\los_sys.h)(0x57732551)
+I (..\Huawei_LiteOS\kernel\include\los_base.h)(0x577472B4)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h)(0x586B76A8)
+I (..\Huawei_LiteOS\kernel\include\los_typedef.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h)(0x586F46AC)
+I (..\Huawei_LiteOS\kernel\include\los_printf.h)(0x5772141F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Huawei_LiteOS\kernel\include\los_list.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_errno.h)(0x5773AA04)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.h)(0x586B5985)
+I (..\Huawei_LiteOS\kernel\include\los_tick.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_task.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_task.h)(0x5773A94A)
+I (..\Huawei_LiteOS\kernel\include\los_event.h)(0x5772141F)
+F (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hw.c)(0x586B7F0B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\los_hw.o --omf_browse ..\obj\los_hw.crf --depend ..\obj\los_hw.d)
+I (..\Huawei_LiteOS\kernel\include\los_base.h)(0x577472B4)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h)(0x586B76A8)
+I (..\Huawei_LiteOS\kernel\include\los_typedef.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h)(0x586F46AC)
+I (..\Huawei_LiteOS\kernel\include\los_printf.h)(0x5772141F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Huawei_LiteOS\kernel\include\los_list.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_errno.h)(0x5773AA04)
+I (..\Huawei_LiteOS\kernel\base\include\los_task.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_task.h)(0x5773A94A)
+I (..\Huawei_LiteOS\kernel\include\los_sys.h)(0x57732551)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.h)(0x586B5985)
+I (..\Huawei_LiteOS\kernel\include\los_tick.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_event.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hw.h)(0x586B7EF7)
+I (..\Huawei_LiteOS\kernel\base\include\los_sys.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_base.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_priqueue.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_priqueue.h)(0x5772141F)
+F (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hw_tick.c)(0x586B6E04)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\los_hw_tick.o --omf_browse ..\obj\los_hw_tick.crf --depend ..\obj\los_hw_tick.d)
+I (..\Huawei_LiteOS\kernel\base\include\los_tick.ph)(0x586B6E0C)
+I (..\Huawei_LiteOS\kernel\include\los_tick.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_errno.h)(0x5773AA04)
+I (..\Huawei_LiteOS\kernel\include\los_typedef.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h)(0x586B76A8)
+I (..\Huawei_LiteOS\kernel\include\los_base.h)(0x577472B4)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h)(0x586F46AC)
+I (..\Huawei_LiteOS\kernel\include\los_printf.h)(0x5772141F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Huawei_LiteOS\kernel\include\los_list.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\base\include\los_task.ph)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_task.h)(0x5773A94A)
+I (..\Huawei_LiteOS\kernel\include\los_sys.h)(0x57732551)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.h)(0x586B5985)
+I (..\Huawei_LiteOS\kernel\include\los_event.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_swtmr.h)(0x5773966D)
+F (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.c)(0x586B5811)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-DSTM32F40_41xxx -DSTM32F40_41xxx -DSTM32F40_41xxx-o ..\obj\los_hwi.o --omf_browse ..\obj\los_hwi.crf --depend ..\obj\los_hwi.d)
+I (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_hwi.h)(0x586B5985)
+I (..\Huawei_LiteOS\kernel\include\los_base.h)(0x577472B4)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h)(0x586B76A8)
+I (..\Huawei_LiteOS\kernel\include\los_typedef.h)(0x5772141F)
+I (..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h)(0x586F46AC)
+I (..\Huawei_LiteOS\kernel\include\los_printf.h)(0x5772141F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Huawei_LiteOS\kernel\include\los_list.h)(0x5772141F)
+I (..\Huawei_LiteOS\kernel\include\los_errno.h)(0x5773AA04)
+I (..\Huawei_LiteOS\kernel\include\los_sys.h)(0x57732551)
+F (..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispatch.s)(0x586B7D26)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include--list ..\obj\los_dispatch.lst --xref -o ..\obj\los_dispatch.o --depend ..\obj\los_dispatch.d)

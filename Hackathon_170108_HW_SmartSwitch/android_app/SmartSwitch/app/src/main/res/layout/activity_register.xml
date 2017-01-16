@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/backgroundMain"
+              android:orientation="vertical"
+    >
+
+    <include layout="@layout/custom_toolbar"/>
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/met_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/user_id_hint"
+        android:padding="5dp"
+        app:met_helperText=""
+        app:met_floatingLabel="normal"
+        app:met_maxCharacters="16"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/met_psw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/psw_hint"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        app:met_floatingLabel="normal"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/met_nick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/user_name_hint"
+        android:padding="5dp"
+        app:met_floatingLabel="normal"
+        />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorPrimary"
+        android:text="注册"
+        android:textColor="@color/font_white"
+        />
+
+</LinearLayout>

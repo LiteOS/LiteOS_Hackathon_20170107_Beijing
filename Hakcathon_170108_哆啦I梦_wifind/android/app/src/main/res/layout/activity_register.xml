@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.apple.login.Register"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TableRow
+            android:layout_marginTop="15dp">
+            <TextView
+                android:text="用户名:"
+                android:layout_weight="1"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/regisUser"
+                android:layout_weight="10"
+                android:layout_width="match_parent"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15dp">
+            <TextView
+                android:text="密码:"
+                android:layout_weight="1"
+                android:textSize="18dp"/>
+
+            <EditText
+                android:id="@+id/password1"
+                android:inputType="textPassword"
+                android:layout_weight="10"
+                android:layout_width="match_parent"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15dp">
+            <TextView
+                android:text="确认密码:"
+                android:layout_weight="1"
+                android:textSize="18dp"/>
+
+            <EditText
+                android:id="@+id/password2"
+                android:inputType="textPassword"
+                android:layout_weight="10"
+                android:layout_width="match_parent"/>
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="15dp">
+            <TextView
+                android:text="手机:"
+                android:layout_weight="1"
+                android:textSize="18dp"/>
+
+            <EditText
+                android:id="@+id/phone"
+                android:inputType="number"
+                android:layout_weight="10"/>
+
+            <Button
+                android:text="验证码"
+                android:id="@+id/check"
+                android:textSize="18dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15dp"
+            android:id="@+id/checkCodeRow">
+            <TextView
+                android:text="验证码:"
+                android:layout_weight="1"
+                android:textSize="18dp"/>
+
+            <EditText
+                android:id="@+id/checkcode"
+                android:inputType="number"
+                android:layout_weight="10"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15dp">
+            <TextView
+                android:text="邮箱:"
+                android:layout_weight="1"
+                android:textSize="18dp"/>
+
+            <EditText
+                android:id="@+id/email"
+                android:inputType="textEmailAddress"
+                android:layout_weight="10"/>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:text="提交"
+        android:textSize="18dp"
+        android:id="@+id/submit"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape"
+        android:id="@+id/cancel"
+        android:text="取消"
+        android:textSize="18dp"/>
+
+
+</LinearLayout>

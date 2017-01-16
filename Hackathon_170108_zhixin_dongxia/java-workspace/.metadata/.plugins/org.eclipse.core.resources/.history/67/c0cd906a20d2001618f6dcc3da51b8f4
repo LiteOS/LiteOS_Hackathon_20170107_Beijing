@@ -1,0 +1,27 @@
+package com.levainservice.service;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+public class AbstractResource {
+	Logger log = LogManager.getLogger();
+	private Gson gson;
+	
+	public AbstractResource(){
+		 gson = new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss")
+			
+		  .create();
+	}
+	
+	public Gson getGson() {
+		return gson;
+	}
+
+	public void setGson(Gson gson) {
+		this.gson = gson;
+	}
+
+}

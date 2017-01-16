@@ -1,0 +1,29 @@
+package org.levainservice.rest.oms;
+
+import org.junit.Test;
+import org.levainservice.rest.Response;
+import org.levainservice.service.oms.model.Contact;
+
+import com.google.gson.Gson;
+
+public class ContactClientTest {
+	ContactClient client = new ContactClient();
+	
+	@Test
+	public void testInsert() {
+		Contact d = new Contact();
+		d.setContactName("rest-中文-001");
+		d.setContactSerialNo("OMS-0005");
+		d.setContactPos("湖南电信-rest-3309");
+		
+		Response r = client.insert(d);
+		System.out.println(new Gson().toJson(r));
+	}
+
+	@Test
+	public void testListContacts() {
+		Response r = client.listContacts(1);
+		System.out.println(new Gson().toJson(r));
+	}
+
+}

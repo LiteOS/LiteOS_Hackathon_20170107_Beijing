@@ -1,0 +1,5 @@
+INDEX VERSION 1.127
+D:\0.7-ihardware\java-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\87130578.index
+\IHardware-Server\base
+D:\0.7-ihardware\java-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\731034408.index
+\IHardware-server\base

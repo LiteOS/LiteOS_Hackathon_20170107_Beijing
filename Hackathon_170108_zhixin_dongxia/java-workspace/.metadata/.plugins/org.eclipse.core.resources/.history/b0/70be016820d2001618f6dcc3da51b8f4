@@ -1,0 +1,5 @@
+package com.levainservice.service;
+
+public class AbstractResource {
+
+}
