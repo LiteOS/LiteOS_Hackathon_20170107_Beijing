@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Libraries\CMSIS -I..\Libraries\FWlib\inc -I..\User -I..\User\led -I..\User\usart -I..\Huawei_LiteOS\kernel\include -I..\Huawei_LiteOS\kernel\base\include -I..\Huawei_LiteOS\platform\bsp\sample\config -I..\Huawei_LiteOS\platform\cpu\arm\cortex-m4 -I..\User\USART
+-I F:\MDK512\ARM\RV31\INC
+-I F:\MDK512\ARM\CMSIS\Include
+-I F:\MDK512\ARM\Inc\ST\STM32F10x
+-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o .\objects\bsp_uart1_scr.o --omf_browse .\objects\bsp_uart1_scr.crf --depend .\objects\bsp_uart1_scr.d --feedback ".\Objects\HuaweiLiteOS.fed" "..\User\USART\Bsp_Uart1_Scr.c"
