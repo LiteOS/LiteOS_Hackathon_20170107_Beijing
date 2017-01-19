@@ -1,0 +1,13 @@
+..\..\output\los_multipledlinkhead.o: ..\..\Huawei_LiteOS_Kernel-master\Huawei_LiteOS\kernel\base\mem\los_multipledlinkhead.c
+..\..\output\los_multipledlinkhead.o: ..\..\Huawei_LiteOS_Kernel-master\Huawei_LiteOS\kernel\base\mem\los_multipledlinkhead.inc
+..\..\output\los_multipledlinkhead.o: ..\..\Huawei_LiteOS_Kernel-master\Huawei_LiteOS\kernel\base\include\los_multipledlinkhead.ph
+..\..\output\los_multipledlinkhead.o: ..\..\Huawei_LiteOS_Kernel-master\Huawei_LiteOS\kernel\include\los_multipledlinkhead.h
+..\..\output\los_multipledlinkhead.o: ..\..\Huawei_LiteOS_Kernel-master\Huawei_LiteOS\kernel\include\los_base.h
+..\..\output\los_multipledlinkhead.o: ..\..\Huawei_LiteOS_Kernel-master\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h
+..\..\output\los_multipledlinkhead.o: ..\..\Huawei_LiteOS_Kernel-master\Huawei_LiteOS\kernel\include\los_typedef.h
+..\..\output\los_multipledlinkhead.o: ..\..\Huawei_LiteOS_Kernel-master\Huawei_LiteOS\platform\bsp\sample\config\los_config.h
+..\..\output\los_multipledlinkhead.o: ..\..\Huawei_LiteOS_Kernel-master\Huawei_LiteOS\kernel\include\los_printf.h
+..\..\output\los_multipledlinkhead.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\los_multipledlinkhead.o: ..\..\Huawei_LiteOS_Kernel-master\Huawei_LiteOS\kernel\include\los_list.h
+..\..\output\los_multipledlinkhead.o: ..\..\Huawei_LiteOS_Kernel-master\Huawei_LiteOS\kernel\include\los_base.h
+..\..\output\los_multipledlinkhead.o: ..\..\Huawei_LiteOS_Kernel-master\Huawei_LiteOS\kernel\include\los_errno.h
