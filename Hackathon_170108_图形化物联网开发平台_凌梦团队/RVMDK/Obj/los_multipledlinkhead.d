@@ -1,0 +1,13 @@
+.\obj\los_multipledlinkhead.o: ..\Huawei_LiteOS\kernel\base\mem\los_multipledlinkhead.c
+.\obj\los_multipledlinkhead.o: ..\Huawei_LiteOS\kernel\base\mem\los_multipledlinkhead.inc
+.\obj\los_multipledlinkhead.o: ..\Huawei_LiteOS\kernel\base\include\los_multipledlinkhead.ph
+.\obj\los_multipledlinkhead.o: ..\Huawei_LiteOS\kernel\include\los_multipledlinkhead.h
+.\obj\los_multipledlinkhead.o: ..\Huawei_LiteOS\kernel\include\los_base.h
+.\obj\los_multipledlinkhead.o: ..\Huawei_LiteOS\platform\bsp\sample\config\los_builddef.h
+.\obj\los_multipledlinkhead.o: ..\Huawei_LiteOS\kernel\include\los_typedef.h
+.\obj\los_multipledlinkhead.o: ..\Huawei_LiteOS\platform\bsp\sample\config\los_config.h
+.\obj\los_multipledlinkhead.o: ..\Huawei_LiteOS\kernel\include\los_printf.h
+.\obj\los_multipledlinkhead.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\los_multipledlinkhead.o: ..\Huawei_LiteOS\kernel\include\los_list.h
+.\obj\los_multipledlinkhead.o: ..\Huawei_LiteOS\kernel\include\los_base.h
+.\obj\los_multipledlinkhead.o: ..\Huawei_LiteOS\kernel\include\los_errno.h

@@ -1,0 +1,237 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         ;-------------------------------------------------------
+                       ---------------------
+    2 00000000         ; Copyright (c) <2013-2015>, <Huawei Technologies Co., L
+                       td>
+    3 00000000         ; All rights reserved.
+    4 00000000         ; Redistribution and use in source and binary forms, wit
+                       h or without modification,
+    5 00000000         ; are permitted provided that the following conditions a
+                       re met:
+    6 00000000         ; 1. Redistributions of source code must retain the abov
+                       e copyright notice, this list of
+    7 00000000         ; conditions and the following disclaimer.
+    8 00000000         ; 2. Redistributions in binary form must reproduce the a
+                       bove copyright notice, this list
+    9 00000000         ; of conditions and the following disclaimer in the docu
+                       mentation and/or other materials
+   10 00000000         ; provided with the distribution.
+   11 00000000         ; 3. Neither the name of the copyright holder nor the na
+                       mes of its contributors may be used
+   12 00000000         ; to endorse or promote products derived from this softw
+                       are without specific prior written
+   13 00000000         ; permission.
+   14 00000000         ; THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
+                        CONTRIBUTORS
+   15 00000000         ; "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDI
+                       NG, BUT NOT LIMITED TO,
+   16 00000000         ; THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS 
+                       FOR A PARTICULAR
+   17 00000000         ; PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGH
+                       T HOLDER OR
+   18 00000000         ; CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCID
+                       ENTAL, SPECIAL,
+   19 00000000         ; EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NO
+                       T LIMITED TO,
+   20 00000000         ; PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF U
+                       SE, DATA, OR PROFITS;
+   21 00000000         ; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY TH
+                       EORY OF LIABILITY,
+   22 00000000         ; WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUD
+                       ING NEGLIGENCE OR
+   23 00000000         ; OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS S
+                       OFTWARE, EVEN IF
+   24 00000000         ; ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+   25 00000000         ;-------------------------------------------------------
+                       --------------------*/
+   26 00000000         ;-------------------------------------------------------
+                       ---------------------
+   27 00000000         ; Notice of Export Control Law
+   28 00000000         ; ===============================================
+   29 00000000         ; Huawei LiteOS may be subject to applicable export cont
+                       rol laws and regulations, which might
+   30 00000000         ; include those applicable to Huawei LiteOS of U.S. and 
+                       the country in which you are located.
+   31 00000000         ; Import, export and usage of Huawei LiteOS in any manne
+                       r by you shall be in compliance with such
+   32 00000000         ; applicable export control laws and regulations.
+   33 00000000         ;-------------------------------------------------------
+                       --------------------*/
+   34 00000000         
+
+
+
+ARM Macro Assembler    Page 2 
+
+
+   35 00000000         ;备注: 此文件内容已在其他文件中定义
+   36 00000000         
+   37 00000000                 PRESERVE8
+   38 00000000         
+   39 00000000                 EXPORT           LOS_IntLock
+   40 00000000                 EXPORT           LOS_IntUnLock
+   41 00000000                 EXPORT           LOS_IntRestore
+   42 00000000                 EXPORT           LOS_StartToRun
+   43 00000000                 EXPORT           osTaskSchedule
+   44 00000000                 EXPORT           PendSV_Handler1
+   45 00000000         
+   46 00000000                 IMPORT           g_stLosTask
+   47 00000000                 IMPORT           g_pfnTskSwitchHook
+   48 00000000                 IMPORT           g_bTaskScheduled
+   49 00000000         
+   50 00000000                 AREA             |.text|, CODE, READONLY
+   51 00000000                 THUMB
+   52 00000000         
+   53 00000000         LOS_StartToRun
+   54 00000000         
+   55 00000000         LOS_IntLock
+   56 00000000         
+   57 00000000         LOS_IntUnLock
+   58 00000000         
+   59 00000000         LOS_IntRestore
+   60 00000000         
+   61 00000000         osTaskSchedule
+   62 00000000         
+   63 00000000         PendSV_Handler1
+   64 00000000         
+   65 00000000         TaskSwitch
+   66 00000000         
+   67 00000000                 END
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
+erwork --depend=.\obj\los_dispatch.d -o.\obj\los_dispatch.o -IC:\Users\Administ
+rator\Desktop\华为比赛\例程\Nucleo411Model\RVMDK\RTE -IC:\Keil_v5\ARM\PACK\Keil
+\STM32F4xx_DFP\2.11.0 -IC:\Keil_v5\ARM\CMSIS\Include --predefine="__MICROLIB SE
+TA 1" --predefine="__UVISION_VERSION SETA 514" --predefine="STM32F411xE SETA 1"
+ --list=.\list\los_dispatch.lst ..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los
+_dispatch.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+.text 00000000
+
+Symbol: .text
+   Definitions
+      At line 50 in file ..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispat
+ch.s
+   Uses
+      None
+Comment: .text unused
+LOS_IntLock 00000000
+
+Symbol: LOS_IntLock
+   Definitions
+      At line 55 in file ..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispat
+ch.s
+   Uses
+      At line 39 in file ..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispat
+ch.s
+Comment: LOS_IntLock used once
+LOS_IntRestore 00000000
+
+Symbol: LOS_IntRestore
+   Definitions
+      At line 59 in file ..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispat
+ch.s
+   Uses
+      At line 41 in file ..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispat
+ch.s
+Comment: LOS_IntRestore used once
+LOS_IntUnLock 00000000
+
+Symbol: LOS_IntUnLock
+   Definitions
+      At line 57 in file ..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispat
+ch.s
+   Uses
+      At line 40 in file ..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispat
+ch.s
+Comment: LOS_IntUnLock used once
+LOS_StartToRun 00000000
+
+Symbol: LOS_StartToRun
+   Definitions
+      At line 53 in file ..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispat
+ch.s
+   Uses
+      At line 42 in file ..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispat
+ch.s
+Comment: LOS_StartToRun used once
+PendSV_Handler1 00000000
+
+Symbol: PendSV_Handler1
+   Definitions
+      At line 63 in file ..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispat
+ch.s
+   Uses
+      At line 44 in file ..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispat
+ch.s
+Comment: PendSV_Handler1 used once
+
+
+
+ARM Macro Assembler    Page 2 Alphabetic symbol ordering
+Relocatable symbols
+
+TaskSwitch 00000000
+
+Symbol: TaskSwitch
+   Definitions
+      At line 65 in file ..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispat
+ch.s
+   Uses
+      None
+Comment: TaskSwitch unused
+osTaskSchedule 00000000
+
+Symbol: osTaskSchedule
+   Definitions
+      At line 61 in file ..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispat
+ch.s
+   Uses
+      At line 43 in file ..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispat
+ch.s
+Comment: osTaskSchedule used once
+8 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+External symbols
+
+g_bTaskScheduled 00000000
+
+Symbol: g_bTaskScheduled
+   Definitions
+      At line 48 in file ..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispat
+ch.s
+   Uses
+      None
+Comment: g_bTaskScheduled unused
+g_pfnTskSwitchHook 00000000
+
+Symbol: g_pfnTskSwitchHook
+   Definitions
+      At line 47 in file ..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispat
+ch.s
+   Uses
+      None
+Comment: g_pfnTskSwitchHook unused
+g_stLosTask 00000000
+
+Symbol: g_stLosTask
+   Definitions
+      At line 46 in file ..\Huawei_LiteOS\platform\cpu\arm\cortex-m4\los_dispat
+ch.s
+   Uses
+      None
+Comment: g_stLosTask unused
+3 symbols
+344 symbols in table
